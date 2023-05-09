@@ -46,7 +46,7 @@ const Testimonials = () => {
                   </div>
                   <div className='card'>
                       <img src={user4} alt='user1'/>
-                      <p>A very professional financial advisor, who is true to his word. John has demonstrated a high amount of integrity in the time I have known him, and he is fast to respond to my concerns.</p>
+                      <p>Oh no he bullied my website.</p>
                       <p><span>Niffi</span></p>
                       <p>FrontEnd Lead and Push please spammer</p>
                   </div>
