@@ -33,7 +33,7 @@ function Navbar() {
 
   const message = {
     en: {
-      DynaFood: 'DynaFood_EN   ',
+      DynaFood: '_EN   ',
       Home: 'Home',
       Apps: 'Apps',
       Team: 'Team',
@@ -41,7 +41,7 @@ function Navbar() {
       Download: 'Download',
     },
     fr : {
-      DynaFood: 'DynaFood_FR   ',
+      DynaFood: '_FR   ',
       Home: 'Accueil',
       Apps: 'Application',
       Team: 'La team',
@@ -49,7 +49,7 @@ function Navbar() {
       Download: 'Telecharger',
     },
     de : {
-      DynaFood: 'DynaFood_DE   ',
+      DynaFood: '_DE   ',
       Home: 'Willkommen',
       Apps: 'Anwendung',
       Team: 'Der team',

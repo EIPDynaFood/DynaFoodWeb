@@ -28,39 +28,39 @@ const Testimonials = () => {
               <div className='content'>
                   <div className='card'>
                       <img src={user1} alt='user1'/>
-                      <p>I am a 4th Year Student of Epitech Berlin & Ambassador in South Korea, Sky League Chung-ang University. I am currently doing front-end and studying CS & electrical engineering</p>
                       <p><span>Outmane</span></p>
-                      <p>FrontEnd & Dying every meeting</p>
+                      <p>I am a 4th Year Student of Epitech Berlin & Ambassador in South Korea, Sky League Chung-ang University. I am currently doing front-end and studying CS & electrical engineering</p>
+                      <p>FrontEnd</p>
                   </div>
                   <div className='card'>
                       <img src={user2} alt='user1'/>
-                      <p>I am a 4th Year Student of Epitech Berlin and did my exchange year together with Niffi in Jönköping, Sweden. I am the Backend-Lead of the Team, database-manager and the go to supporter for backend.</p>
                       <p><span>Karl</span></p>
+                      <p>I am a 4th Year Student of Epitech Berlin and did my exchange year together with Niffi in Jönköping, Sweden. I am the Backend-Lead of the Team, database-manager and the go to supporter for backend.</p>
                       <p>BackEnd Lead</p>
                   </div>
                   <div className='card'>
                       <img src={user3} alt='user1'/>
-                      <p>I am a Tek4 student at Epitech Berlin and I am currently doing my year abroad in the UK. At DynaFood I am mostly working in the backend.</p>
                       <p><span>Marcel</span></p>
-                      <p>BackEnd & Depression</p>
+                      <p>I am a Tek4 student at Epitech Berlin and I am currently doing my year abroad in the UK. At DynaFood I am mostly working in the backend.</p>
+                      <p>BackEnd</p>
                   </div>
                   <div className='card'>
                       <img src={user4} alt='user1'/>
-                      <p>Oh no he bullied my website.</p>
                       <p><span>Niffi</span></p>
-                      <p>FrontEnd Lead and Push please spammer</p>
+                      <p>I am a Tek4 Student of Epitech Berlin and did my exchange in Jönköping in Sweden. I am the Frontend-Lead of DynaFood and take care about the meetings and other organizational things.</p>
+                      <p>FrontEnd Lead</p>
                   </div>
                   <div className='card'>
                       <img src={user5} alt='user1'/>
-                      <p>I am a Tek4 student at Epitech Paris, currently in Berlin for my year abroad. I am working on the backend part of the project</p>
                       <p><span>Poul</span></p>
-                      <p>Doing something</p>
+                      <p>I am a Tek4 student at Epitech Paris, currently in Berlin for my year abroad. I am working on the backend part of the project</p>
+                      <p>BackEnd</p>
                   </div>
                   <div className='card'>
                       <img src={user6} alt='user1'/>
-                      <p>I am a Tek 4 Student of Epitech Berlin. My exchange year was in Daegu, South Korea. I am focusing on front-end, styling and testing for the front-end.</p>
                       <p><span>Jurdyc</span></p>
-                      <p>The Other niklas</p>
+                      <p>I am a Tek 4 Student of Epitech Berlin. My exchange year was in Daegu, South Korea. I am focusing on front-end, styling and testing for the front-end.</p>
+                      <p>FrontEnd & Project Owner</p>
                   </div>
               </div>
           </div>

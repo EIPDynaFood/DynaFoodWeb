@@ -22,10 +22,11 @@ const Form = () => {
                 <input type="phone" name="phone" className="input" id="" onChange={handleChange} value={data.phone} placeholder="+69 ..."/>
                 <textarea name="message" id="" cols="30" className="textarea" rows="10" onChange={handleChange} value={data.message} placeholder="type here..."/>
                 <button type='submit' className="button" >send</button>
-                <p>{data.name},{data.email},{data.phone},{data.message}</p>
             </form>
         </div>
     )
 }
 
 export default Form
+
+//<p>{data.name},{data.email},{data.phone},{data.message}</p>
