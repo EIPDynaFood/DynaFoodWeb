@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/DynaFoodWeb/static/css/main.b981c686.chunk.css",
+    "main.js": "/DynaFoodWeb/static/js/main.c1bc189f.chunk.js",
+    "main.js.map": "/DynaFoodWeb/static/js/main.c1bc189f.chunk.js.map",
+    "runtime-main.js": "/DynaFoodWeb/static/js/runtime-main.c4f5c23a.js",
+    "runtime-main.js.map": "/DynaFoodWeb/static/js/runtime-main.c4f5c23a.js.map",
+    "static/css/2.ee96fe6c.chunk.css": "/DynaFoodWeb/static/css/2.ee96fe6c.chunk.css",
+    "static/js/2.ecd06b2c.chunk.js": "/DynaFoodWeb/static/js/2.ecd06b2c.chunk.js",
+    "static/js/2.ecd06b2c.chunk.js.map": "/DynaFoodWeb/static/js/2.ecd06b2c.chunk.js.map",
+    "index.html": "/DynaFoodWeb/index.html",
+    "precache-manifest.88557104fdc4186b8239680285dd3eec.js": "/DynaFoodWeb/precache-manifest.88557104fdc4186b8239680285dd3eec.js",
+    "service-worker.js": "/DynaFoodWeb/service-worker.js",
+    "static/css/2.ee96fe6c.chunk.css.map": "/DynaFoodWeb/static/css/2.ee96fe6c.chunk.css.map",
+    "static/css/main.b981c686.chunk.css.map": "/DynaFoodWeb/static/css/main.b981c686.chunk.css.map",
+    "static/js/2.ecd06b2c.chunk.js.LICENSE.txt": "/DynaFoodWeb/static/js/2.ecd06b2c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c4f5c23a.js",
+    "static/css/2.ee96fe6c.chunk.css",
+    "static/js/2.ecd06b2c.chunk.js",
+    "static/css/main.b981c686.chunk.css",
+    "static/js/main.c1bc189f.chunk.js"
+  ]
+}

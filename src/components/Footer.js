@@ -2,6 +2,7 @@ import React from 'react';
 import './Footer.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
+import img1 from '../images/logo_frame.png'
 
 function Footer() {
   return (
@@ -50,7 +51,7 @@ function Footer() {
       </div>
       <section class='social-media'>
         <div class='social-media-wrap'>
-          <img src='logo_frame.png' class="logo-small" alt="logo_frame"/>
+          <img src={img1} class="logo-small" alt="logo_frame"/>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'

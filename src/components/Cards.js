@@ -1,6 +1,9 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
+import img1 from '../images/information.png';
+import img2 from '../images/scanner.png';
+import img3 from '../images/settings.png';
 
 function Cards() {
   const message = {
@@ -33,13 +36,13 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='settings.png'
+              src={img3}
               text='Change all your settings to the desired allergens'
               label='settings'
               path='/services'
             />
             <CardItem
-              src='scanner.png'
+              src={img2}
               text='Scan all your fav products'
               label='scanner'
               path='/services'
@@ -47,7 +50,7 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='information.png'
+              src={img1}
               text='Get detailed information about each scanned product'
               label='information'
               path='/services'
@@ -55,25 +58,25 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='settings.png'
+              src={img3}
               text='Change all your settings to the desired allergens'
               label='settings'
               path='/services'
             />
             <CardItem
-              src='scanner.png'
+              src={img2}
               text='Scan all your fav products'
               label='scanner'
               path='/services'
             />
             <CardItem
-              src='settings.png'
+              src={img3}
               text='Change all your settings to the desired allergens'
               label='settings'
               path='/services'
             />
             <CardItem
-              src='scanner.png'
+              src={img2}
               text='Scan all your fav products'
               label='scanner'
               path='/services'

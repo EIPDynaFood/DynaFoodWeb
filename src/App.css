@@ -7,6 +7,7 @@
 
 .home,
 .services,
+.download,
 .contact {
   display: flex;
   height: 90vh;
@@ -25,6 +26,14 @@
 }
 
 .contact {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.download {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
