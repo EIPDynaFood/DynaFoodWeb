@@ -4,6 +4,17 @@ import CardItem from './CardItem';
 import img1 from '../images/information.png';
 import img2 from '../images/scanner.png';
 import img3 from '../images/settings.png';
+import img4 from '../images/alert.png';
+import img5 from '../images/detail.png';
+import img6 from '../images/history.png';
+import img7 from '../images/login.png';
+import img8 from '../images/reset.png';
+import img9 from '../images/oreo.png';
+
+
+
+
+
 
 function Cards() {
   const message = {
@@ -55,33 +66,39 @@ function Cards() {
               label='information'
               path='/services'
             />
+            <CardItem
+              src={img4}
+              text='Get allerted in case of an allergen detection'
+              label='alert'
+              path='/services'
+            />
+            <CardItem
+              src={img6}
+              text='Keep track of all your favs, and much more'
+              label='history'
+              path='/services'
+            />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src={img3}
-              text='Change all your settings to the desired allergens'
-              label='settings'
-              path='/services'
-            />
-            <CardItem
-              src={img2}
-              text='Scan all your fav products'
-              label='scanner'
-              path='/services'
-            />
-            <CardItem
-              src={img3}
-              text='Change all your settings to the desired allergens'
-              label='settings'
-              path='/services'
-            />
-            <CardItem
-              src={img2}
-              text='Scan all your fav products'
-              label='scanner'
-              path='/services'
-            />
-          </ul>
+                src={img7}
+                text='Creat an account and save all your information'
+                label='login'
+                path='/services'
+              />
+              <CardItem
+                src={img8}
+                text='Reset your password in case of lost'
+                label='reset'
+                path='/services'
+              />
+              <CardItem
+                src={img9}
+                text='Find every product in supermarket and its nutritional value in every language'
+                label='product'
+                path='/services'
+              />
+            </ul>
         </div>
       </div>
     </div>
