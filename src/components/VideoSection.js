@@ -41,15 +41,23 @@ import video1 from '../images/video-4.mp4';
 
 function VideoSection() {
 
-  const handleDownload = () => {
+  /*const handleDownload = () => {
     const url = '../images/dyna.apk';
     const link = document.createElement('a');
     link.href = url;
     link.download = 'dyna.apk';
     document.body.appendChild(link);
     link.click();
-  };
-
+  };*/
+    const handleDownload = () => {
+      const url = 'https://expo.dev/artifacts/eas/5GyTkDfWxE479nuKdCFDU9.apk';
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = 'dyna.apk';
+      document.body.appendChild(link);
+      link.click();
+    };
+  
   return (
     <div className='hero-container'>
       <video src={video1} autoPlay loop muted />

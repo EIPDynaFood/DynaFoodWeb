@@ -32,7 +32,7 @@ function Navbar() {
   }
 
   const handleDownload = () => {
-    const url = '../images/dyna.apk';
+    const url = 'https://expo.dev/artifacts/eas/5GyTkDfWxE479nuKdCFDU9.apk';
     const link = document.createElement('a');
     link.href = url;
     link.download = 'dyna.apk';
