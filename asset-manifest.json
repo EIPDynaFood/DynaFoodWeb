@@ -1,25 +1,33 @@
 {
   "files": {
-    "main.css": "/DynaFoodWeb/static/css/main.b981c686.chunk.css",
-    "main.js": "/DynaFoodWeb/static/js/main.c1bc189f.chunk.js",
-    "main.js.map": "/DynaFoodWeb/static/js/main.c1bc189f.chunk.js.map",
-    "runtime-main.js": "/DynaFoodWeb/static/js/runtime-main.c4f5c23a.js",
-    "runtime-main.js.map": "/DynaFoodWeb/static/js/runtime-main.c4f5c23a.js.map",
-    "static/css/2.ee96fe6c.chunk.css": "/DynaFoodWeb/static/css/2.ee96fe6c.chunk.css",
-    "static/js/2.ecd06b2c.chunk.js": "/DynaFoodWeb/static/js/2.ecd06b2c.chunk.js",
-    "static/js/2.ecd06b2c.chunk.js.map": "/DynaFoodWeb/static/js/2.ecd06b2c.chunk.js.map",
-    "index.html": "/DynaFoodWeb/index.html",
-    "precache-manifest.88557104fdc4186b8239680285dd3eec.js": "/DynaFoodWeb/precache-manifest.88557104fdc4186b8239680285dd3eec.js",
-    "service-worker.js": "/DynaFoodWeb/service-worker.js",
-    "static/css/2.ee96fe6c.chunk.css.map": "/DynaFoodWeb/static/css/2.ee96fe6c.chunk.css.map",
-    "static/css/main.b981c686.chunk.css.map": "/DynaFoodWeb/static/css/main.b981c686.chunk.css.map",
-    "static/js/2.ecd06b2c.chunk.js.LICENSE.txt": "/DynaFoodWeb/static/js/2.ecd06b2c.chunk.js.LICENSE.txt"
+    "main.css": "/home/static/css/main.e612eb19.chunk.css",
+    "main.js": "/home/static/js/main.c965e4ff.chunk.js",
+    "main.js.map": "/home/static/js/main.c965e4ff.chunk.js.map",
+    "runtime-main.js": "/home/static/js/runtime-main.74b27b37.js",
+    "runtime-main.js.map": "/home/static/js/runtime-main.74b27b37.js.map",
+    "static/css/2.ee96fe6c.chunk.css": "/home/static/css/2.ee96fe6c.chunk.css",
+    "static/js/2.0d572f3b.chunk.js": "/home/static/js/2.0d572f3b.chunk.js",
+    "static/js/2.0d572f3b.chunk.js.map": "/home/static/js/2.0d572f3b.chunk.js.map",
+    "index.html": "/home/index.html",
+    "precache-manifest.f5b40b999c0afdac31e1656f14fa2f9f.js": "/home/precache-manifest.f5b40b999c0afdac31e1656f14fa2f9f.js",
+    "service-worker.js": "/home/service-worker.js",
+    "static/css/2.ee96fe6c.chunk.css.map": "/home/static/css/2.ee96fe6c.chunk.css.map",
+    "static/css/main.e612eb19.chunk.css.map": "/home/static/css/main.e612eb19.chunk.css.map",
+    "static/js/2.0d572f3b.chunk.js.LICENSE.txt": "/home/static/js/2.0d572f3b.chunk.js.LICENSE.txt",
+    "static/media/information.png": "/home/static/media/information.746b33c2.png",
+    "static/media/logo_frame.png": "/home/static/media/logo_frame.3a78a1b5.png",
+    "static/media/logo_frame_invisible.png": "/home/static/media/logo_frame_invisible.79a33c60.png",
+    "static/media/phase1.png": "/home/static/media/phase1.d0ceb455.png",
+    "static/media/phase2.png": "/home/static/media/phase2.4cd49739.png",
+    "static/media/phase3.png": "/home/static/media/phase3.30bb944b.png",
+    "static/media/scanner.png": "/home/static/media/scanner.cae41cb4.png",
+    "static/media/video-4.mp4": "/home/static/media/video-4.131ec9f0.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.c4f5c23a.js",
+    "static/js/runtime-main.74b27b37.js",
     "static/css/2.ee96fe6c.chunk.css",
-    "static/js/2.ecd06b2c.chunk.js",
-    "static/css/main.b981c686.chunk.css",
-    "static/js/main.c1bc189f.chunk.js"
+    "static/js/2.0d572f3b.chunk.js",
+    "static/css/main.e612eb19.chunk.css",
+    "static/js/main.c965e4ff.chunk.js"
   ]
 }
