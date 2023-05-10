@@ -31,6 +31,15 @@ function Navbar() {
     setLocale(e.target.value);
   }
 
+  const handleDownload = () => {
+    const url = '../images/dyna.apk';
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = 'dyna.apk';
+    document.body.appendChild(link);
+    link.click();
+  };
+
   const message = {
     en: {
       DynaFood: '_EN   ',
@@ -115,7 +124,7 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'><FormattedMessage id="Download"/></Button>}
+          {button && <Button buttonStyle='btn--outline' onClick={handleDownload}><FormattedMessage id="Download"/></Button>}
         </div>
         <select onChange={handleChange} defaultValue={locale}>
         {['en', 'fr','de'].map((x) => (

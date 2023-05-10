@@ -42,10 +42,10 @@ import video1 from '../images/video-4.mp4';
 function VideoSection() {
 
   const handleDownload = () => {
-    const url = '/downloads/your_app_file.apk';
+    const url = '../images/dyna.apk';
     const link = document.createElement('a');
     link.href = url;
-    link.download = 'your_app_file.apk';
+    link.download = 'dyna.apk';
     document.body.appendChild(link);
     link.click();
   };
