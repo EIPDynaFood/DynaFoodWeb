@@ -1,0 +1,52 @@
+ .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.primaryButtonStyle {
+  padding: 10px 20px;
+  background-color: #2E4D44;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.secondaryButtonStyle {
+  padding: 10px 20px;
+  background-color: white;
+  color: #2E4D44;
+  border: 1px solid #2E4D44;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.secondaryButtonStyle:hover {
+  background-color: #2E4D44;
+  color: white;
+}
+
+.footer {
+  text-align: center;
+  background-color: #2E4D44;
+  color: white;
+  padding: 10px;
+}
