@@ -1,19 +1,40 @@
- .container {
+.logincontainer {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(90deg, #2E4D44 0%, transparent 40%, transparent 40%, #2E4D44 100%);
+}
+
+.loginVideo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+}
+
+.loginContent {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #f2f2f2;
+  background-color: rgba(242, 242, 242, 0.5);
 }
 
-.logo {
+.loginlogo {
   width: 150px;
   height: 150px;
   margin-bottom: 20px;
 }
 
-.input {
+.logininput {
   width: 300px;
   padding: 10px;
   margin-bottom: 10px;
@@ -21,16 +42,18 @@
   border-radius: 4px;
 }
 
-.primaryButtonStyle {
+.loginprimaryButtonStyle {
   padding: 10px 20px;
   background-color: #2E4D44;
   color: white;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
-.secondaryButtonStyle {
+.loginsecondaryButtonStyle {
   padding: 10px 20px;
   background-color: white;
   color: #2E4D44;
@@ -39,14 +62,7 @@
   cursor: pointer;
 }
 
-.secondaryButtonStyle:hover {
+.loginsecondaryButtonStyle:hover {
   background-color: #2E4D44;
   color: white;
-}
-
-.footer {
-  text-align: center;
-  background-color: #2E4D44;
-  color: white;
-  padding: 10px;
 }

@@ -1,35 +1,38 @@
 import React from 'react';
-import '../../App.css';
 import Footer from '../Footer';
 import './Register.css';
+import video1 from '../../images/video-4.mp4';
 
 function Register(props) {
   return (
     <>
-      <div className="container">
-        <img src={require('../../images/newmeow5.png')} alt="Logo" className="logo" />
-        <input
-          placeholder="Full Name"
-          className="input"
-          type="text"
-        />
-        <input
-          placeholder="Email"
-          className="input"
-          type="email"
-        />
-        <input
-          placeholder="Password"
-          className="input"
-          type="password"
-        />
-        <input
-          placeholder="Confirm Password"
-          className="input"
-          type="password"
-        />
-        <button className="primaryButtonStyle">Register</button>
-        <p className="registerText">Already have an account? <a href="/login">Login here</a></p>
+      <div className="registercontainer">
+        <video className='registerVideo' src={video1} autoPlay loop muted />
+        <div className="registerContent">
+          <img src={require('../../images/logo_frame.png')} alt="Logo" className="registerlogo" />
+          <input
+            placeholder="Full Name"
+            className="registerinput"
+            type="text"
+          />
+          <input
+            placeholder="Email"
+            className="registerinput"
+            type="email"
+          />
+          <input
+            placeholder="Password"
+            className="registerinput"
+            type="password"
+          />
+          <input
+            placeholder="Confirm Password"
+            className="registerinput"
+            type="password"
+          />
+          <button className="registerprimaryButtonStyle">Register</button>
+          <p className="registerText">Already have an account? <a href="/login">Login here</a></p>
+        </div>
       </div>
       <Footer />
     </>

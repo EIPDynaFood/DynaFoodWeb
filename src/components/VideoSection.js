@@ -50,7 +50,7 @@ function VideoSection() {
     link.click();
   };*/
     const handleDownload = () => {
-      const url = 'https://expo.dev/artifacts/eas/5GyTkDfWxE479nuKdCFDU9.apk';
+      const url = 'https://expo.dev/artifacts/eas/vSn2PiE5CMF9SktN61jBRY.apk';
       const link = document.createElement('a');
       link.href = url;
       link.download = 'dyna.apk';
@@ -78,7 +78,7 @@ function VideoSection() {
           buttonSize='btn--large'
           onClick={handleDownload}
         >
-          Download the App <i className='far fa-play-circle' />
+          Download the App <i className='far fa-play-circle' /> / <i className='far fa-play-circle' />
         </Button>
       </div>
     </div>
@@ -86,3 +86,21 @@ function VideoSection() {
 }
 
 export default VideoSection;
+
+
+  /*const handleDownloadIOS = () => {
+    const url = '../images/dyna.apk';
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = 'dynaios';
+    document.body.appendChild(link);
+    link.click();
+  };
+  const handleDownloadAPK = () => {
+    const url = 'exp://exp.host/@dynafood/dynafoodapp?release-channel=beta';
+    const link = document.createElement('b');
+    link.href = url;
+    link.download = 'dyna.apk';
+    document.body.appendChild(link);
+    link.click();
+  };*/

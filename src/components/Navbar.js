@@ -48,6 +48,7 @@ function Navbar() {
       Team: 'Team',
       Contact: 'Contact Us',
       Download: 'Download',
+      Login: 'Login',
     },
     fr : {
       DynaFood: '_FR   ',
@@ -56,6 +57,7 @@ function Navbar() {
       Team: 'La team',
       Contact: 'Nous contactez',
       Download: 'Telecharger',
+      Login: 'Connecter',
     },
     de : {
       DynaFood: '_DE   ',
@@ -64,6 +66,7 @@ function Navbar() {
       Team: 'Der team',
       Contact: 'Begleiten Sie uns',
       Download: 'Unterladen',
+      Login: 'Login',
     },
   };
 
@@ -114,13 +117,13 @@ function Navbar() {
                 <FormattedMessage id="Contact"/>
               </Link>
             </li>
-            <li>
+            <li className='nav-item'>
               <Link
-                to='/download'
-                className='nav-links-mobile'
+                to='/login'
+                className='nav-links'
                 onClick={closeMobileMenu}
               >
-                <FormattedMessage id="Download"/>
+                <FormattedMessage id="Login"/>
               </Link>
             </li>
           </ul>
