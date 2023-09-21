@@ -3,7 +3,11 @@ import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import { IntlProvider, FormattedMessage } from 'react-intl';
 import './Navbar.css';
+import Select from 'react-select';
 import img1 from '../images/logo_frame.png';
+import enFlag from '../images/us.png';
+import frFlag from '../images/fr.png';
+import deFlag from '../images/de.png';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -41,6 +45,31 @@ function Navbar() {
     document.body.appendChild(link);
     link.click();
   };
+
+  const CustomOption = ({ innerProps, label, data }) => (
+    <div {...innerProps}>
+      <img src={data.icon} alt={label} width="24" height="24" />
+      <span>{label}</span>
+    </div>
+  );
+
+  const languageOptions = [
+    {
+      value: 'en',
+      label: '  English',
+      icon: enFlag, // Import or provide the image URL
+    },
+    {
+      value: 'fr',
+      label: '  French',
+      icon: frFlag,
+    },
+    {
+      value: 'de',
+      label: ' German',
+      icon: deFlag,
+    },
+  ];
 
   const message = {
     en: {
@@ -81,7 +110,6 @@ function Navbar() {
         <div className='navbar-container'>
           <img src={img1} class="logo-small" alt="logo_frame"/>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            <FormattedMessage id="DynaFood"/>
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -133,11 +161,30 @@ function Navbar() {
           </ul>
           {button && <Button buttonStyle='btn--outline' onClick={handleDownload}><FormattedMessage id="Download"/></Button>}
         </div>
-        <select onChange={handleChange} defaultValue={locale}>
-        {['en', 'fr','de'].map((x) => (
-          <option key={x}>{x}</option>
-        ))}
-        </select>
+        <Select
+          options={languageOptions}
+          defaultValue={languageOptions[0]} // Set the initial selected option
+          onChange={(selectedOption) => setLocale(selectedOption.value)} // Handle change event
+          styles={{
+            control: (provided) => ({
+              ...provided,
+              border: '1px solid #ccc',
+            }),
+            option: (provided) => ({
+              ...provided,
+              display: 'flex',
+              alignItems: 'center',
+            }),
+            singleValue: (provided) => ({
+              ...provided,
+              display: 'flex',
+              alignItems: 'center',
+            }),
+          }}
+          components={{
+            Option: CustomOption, // Define a custom option component
+          }}
+        />
       </nav>
       </IntlProvider>
     </>
