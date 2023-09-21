@@ -10,6 +10,7 @@ import Download from './components/pages/Download';
 import Verification from './components/pages/Verification';
 import Login from './components/pages/Login';
 import Register from './components/pages/Register';
+import Profil from './components/pages/Profil';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path='/download' component={Download} />
           <Route path='/verification' component={Verification} />
           <Route path='/login' component={Login} />
+          <Route path='/profil' component={Profil} />
           <Route path='/register' component={Register} />
         </Switch>
       </Router>

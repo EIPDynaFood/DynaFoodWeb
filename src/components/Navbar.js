@@ -8,6 +8,7 @@ import img1 from '../images/logo_frame.png';
 function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
+  const storedToken = localStorage.getItem('token');
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
@@ -22,6 +23,7 @@ function Navbar() {
 
   useEffect(() => {
     showButton();
+    alert(localStorage.getItem('token'))
   }, []);
 
   window.addEventListener('resize', showButton);
@@ -118,13 +120,15 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
-              <Link
-                to='/login'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                <FormattedMessage id="Login"/>
-              </Link>
+            {storedToken ? (
+    <Link to='/profil' className='nav-links' onClick={closeMobileMenu}>
+      <FormattedMessage id="Profil"/>
+    </Link>
+  ) : (
+    <Link to='/login' className='nav-links' onClick={closeMobileMenu}>
+      <FormattedMessage id="Login"/>
+    </Link>
+  )}
             </li>
           </ul>
           {button && <Button buttonStyle='btn--outline' onClick={handleDownload}><FormattedMessage id="Download"/></Button>}
