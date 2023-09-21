@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Footer from '../Footer';
 import { useHistory } from 'react-router-dom';
 import videoFile from '../../images/video-4.mp4';
+import axios from 'axios';
 
 // Utilisez un état local pour suivre la couleur de fond actuelle des boutons
 function Profil() {
@@ -39,10 +40,12 @@ function Profil() {
   const handleLogout = () => {
     // Effectuez ici toute logique de déconnexion, par exemple, déconnexion depuis votre backend, suppression de jetons, etc.
     localStorage.removeItem('token');
+    localStorage.removeItem('refresh_token');
     // Actualisez la page pour déconnecter l'utilisateur
     history.push('/');
     window.location.reload();
   };
+
   
   // Fonction pour ajouter un élément à la liste
   const ajouterElement = (element) => {

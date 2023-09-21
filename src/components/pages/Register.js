@@ -1,9 +1,67 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Footer from '../Footer';
 import './Register.css';
 import video1 from '../../images/video-4.mp4';
+import axios from 'axios';
+import {useHistory } from 'react-router-dom';
 
 function Register(props) {
+  const [firstname, setFirstname] = useState('');
+  const [lastname, setLastname] = useState('');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [Cpassword, setCPassword] = useState('');
+  const userName = "userName"
+  const phoneNumber = "00000000"
+  const history = useHistory();
+ 
+  const handleFirstnameChange = (e) => {
+    setFirstname(e.target.value);
+  };
+
+  const handleLastnameChange = (e) => {
+    setLastname(e.target.value);
+  };
+
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const handlePasswordChange = (e) => {
+    setPassword(e.target.value);
+  };
+
+  const handleCPasswordChange = (e) => {
+    setCPassword(e.target.value);
+  };
+  const handleSubmit = (e) => {
+    var qs = require('qs');
+            var data = qs.stringify({
+                'firstName': `${firstname}`,
+                'lastName': `${lastname}`,
+                'userName': `${userName}`,
+                'email': `${email}`,
+                'phoneNumber': `${phoneNumber}`,
+                'password': `${password}`
+            });
+            var config = {
+                method: 'post',
+                url: 'http://x2024dynafood545437452001.westeurope.cloudapp.azure.com:8081/' + 'signup',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                data : data
+            };
+            axios(config)
+            .then(function (response) {
+            alert("You received an E-Mail to verify your account.")
+            history.push('/');
+            window.location.reload();
+    })
+    .catch((error) => {
+      alert(error)
+  })
+  }
   return (
     <>
       <div className="registercontainer">
@@ -11,26 +69,51 @@ function Register(props) {
         <div className="registerContent">
           <img src={require('../../images/logo_frame.png')} alt="Logo" className="registerlogo" />
           <input
-            placeholder="Full Name"
+            placeholder="First Name"
             className="registerinput"
             type="text"
+            id="firstname"
+            name="firstname"
+            value={firstname}
+            onChange={handleFirstnameChange}
+          />
+          <input
+            placeholder="Last Name"
+            className="registerinput"
+            type="text"
+            id="lastname"
+            name="lastname"
+            value={lastname}
+            onChange={handleLastnameChange}
           />
           <input
             placeholder="Email"
             className="registerinput"
             type="email"
+            id="email"
+            name="email"
+            value={email}
+            onChange={handleEmailChange}
           />
           <input
             placeholder="Password"
             className="registerinput"
             type="password"
+            id="password"
+            name="password"
+            value={password}
+            onChange={handlePasswordChange}
           />
           <input
             placeholder="Confirm Password"
             className="registerinput"
             type="password"
+            id="Cpassword"
+            name="Cpassword"
+            value={Cpassword}
+            onChange={handleCPasswordChange}
           />
-          <button className="registerprimaryButtonStyle">Register</button>
+          <button className="registerprimaryButtonStyle" onClick={handleSubmit}>Register</button>
           <p className="registerText">Already have an account? <a href="/login">Login here</a></p>
         </div>
       </div>
