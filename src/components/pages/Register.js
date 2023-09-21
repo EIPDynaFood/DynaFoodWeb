@@ -55,7 +55,7 @@ function Register(props) {
             axios(config)
             .then(function (response) {
             alert("You received an E-Mail to verify your account.")
-            history.push('/');
+            history.push('/validation');
             window.location.reload();
     })
     .catch((error) => {

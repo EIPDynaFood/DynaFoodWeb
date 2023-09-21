@@ -11,6 +11,7 @@ import Verification from './components/pages/Verification';
 import Login from './components/pages/Login';
 import Register from './components/pages/Register';
 import Profil from './components/pages/Profil';
+import Validation from './components/pages/Validation'
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path='/login' component={Login} />
           <Route path='/profil' component={Profil} />
           <Route path='/register' component={Register} />
+          <Route path='/validation' component={Validation} />
         </Switch>
       </Router>
     </>
