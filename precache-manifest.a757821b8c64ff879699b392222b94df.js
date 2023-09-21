@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f21a9a2c739de644de37b8d562a49477",
+    "revision": "e5719ec58059c87fddf865667027c7b8",
     "url": "/DynaFoodWeb/index.html"
   },
   {
-    "revision": "d4d67d941912c852da6f",
+    "revision": "ef803fbb2700c61dce37",
     "url": "/DynaFoodWeb/static/css/2.ee96fe6c.chunk.css"
   },
   {
-    "revision": "80dc015fce60d253dc50",
-    "url": "/DynaFoodWeb/static/css/main.e612eb19.chunk.css"
+    "revision": "ead8112bdcb3348e387a",
+    "url": "/DynaFoodWeb/static/css/main.f595cf68.chunk.css"
   },
   {
-    "revision": "d4d67d941912c852da6f",
-    "url": "/DynaFoodWeb/static/js/2.ea9b0a41.chunk.js"
+    "revision": "ef803fbb2700c61dce37",
+    "url": "/DynaFoodWeb/static/js/2.4936e941.chunk.js"
   },
   {
-    "revision": "9b318b6fb13190fe82c0677e9264b3c7",
-    "url": "/DynaFoodWeb/static/js/2.ea9b0a41.chunk.js.LICENSE.txt"
+    "revision": "9b9de423b52b798b8fc649e7d9e276fb",
+    "url": "/DynaFoodWeb/static/js/2.4936e941.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "80dc015fce60d253dc50",
-    "url": "/DynaFoodWeb/static/js/main.349ebfe1.chunk.js"
+    "revision": "ead8112bdcb3348e387a",
+    "url": "/DynaFoodWeb/static/js/main.da89f044.chunk.js"
   },
   {
     "revision": "fde1ef35a2ffc07eb668",
