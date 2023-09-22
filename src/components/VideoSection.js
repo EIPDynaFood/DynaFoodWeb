@@ -1,37 +1,3 @@
-/*import React from 'react';
-import '../App.css';
-import { Button } from './Button';
-import './VideoSection.css';
-
-function VideoSection() {
-  return (
-    <div className='hero-container'>
-      <video src='/videos/video-4.mp4' autoPlay loop muted />
-      <img src='../../public/logo_frame_invisible.png' alt="logo_frame_invisible"/>
-      <p>a mobile application that allows users to track and evaluate the environmental impact and nutritional value of their groceries.</p>
-      <div className='hero-btns'>
-        <Button
-          className='btns'
-          buttonStyle='btn--outline'
-          buttonSize='btn--large'
-          //link="/services"
-        >
-          Details
-        </Button>
-        <Button
-          className='btns'
-          buttonStyle='btn--primary'
-          buttonSize='btn--large'
-        >
-          Download the App <i className='far fa-play-circle' />
-        </Button>
-      </div>
-    </div>
-  );
-}
-
-
-export default VideoSection;*/
 import React from 'react';
 import '../App.css';
 import { Button } from './Button';
@@ -49,14 +15,6 @@ function VideoSection() {
     document.body.appendChild(link);
     link.click();
   };*/
-    const handleDownload = () => {
-      const url = 'https://expo.dev/artifacts/eas/vSn2PiE5CMF9SktN61jBRY.apk';
-      const link = document.createElement('a');
-      link.href = url;
-      link.download = 'dyna.apk';
-      document.body.appendChild(link);
-      link.click();
-    };
   
   return (
     <div className='hero-container'>
@@ -76,9 +34,8 @@ function VideoSection() {
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
-          onClick={handleDownload}
         >
-          Download the App <i className='far fa-play-circle' /> / <i className='far fa-play-circle' />
+          Download the App <i className='far fa-play-circle' />
         </Button>
       </div>
     </div>

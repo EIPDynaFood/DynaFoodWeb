@@ -37,15 +37,6 @@ function Navbar() {
     setLocale(e.target.value);
   }
 
-  const handleDownload = () => {
-    const url = 'https://expo.dev/artifacts/eas/5GyTkDfWxE479nuKdCFDU9.apk';
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = 'dyna.apk';
-    document.body.appendChild(link);
-    link.click();
-  };
-
   const CustomOption = ({ innerProps, label, data }) => (
     <div {...innerProps}>
       <img src={data.icon} alt={label} width="24" height="24" />
@@ -159,7 +150,7 @@ function Navbar() {
   )}
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline' onClick={handleDownload}><FormattedMessage id="Download"/></Button>}
+          {button && <Button buttonStyle='btn--outline'><FormattedMessage id="Download"/></Button>}
         </div>
         <Select
           options={languageOptions}

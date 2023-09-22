@@ -21,7 +21,7 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path="/DynaFoodWeb" component={Home} />
-          <Redirect from="//DynaFoodWeb" to="/" />
+          <Redirect from="/DynaFoodWeb" to="/" />
           <Route path='/services' component={Services} />
           <Route path='/team' component={Team} />
           <Route path='/contact' component={Contact} />
