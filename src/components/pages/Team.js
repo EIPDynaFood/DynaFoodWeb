@@ -16,7 +16,7 @@ import 'swiper/swiper.min.css'
 import 'swiper/modules/pagination/pagination.min.css'
 import 'swiper/modules/navigation/navigation.min.css';
 import 'swiper/modules/scrollbar/scrollbar.min.css';
-
+import translate from './../../Translation/Team.json'
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade]);
 
 const Testimonials = () => {
@@ -29,40 +29,40 @@ const Testimonials = () => {
                   <div className='card'>
                       <img src={user2} alt='user1'class="user1"/>
                       <p><span>Outmane</span></p>
-                      <p>I am a 5th Year Student of Epitech Berlin & Ambassador in South Korea, Sky League Chung-ang University. I am currently doing front-end and studying CS & electrical engineering</p>
-                      <p>FrontEnd</p>
+                      <p>{translate["Outmane"][localStorage.getItem("lang")]}</p>
+                      <p>{translate["FrontEnd"][localStorage.getItem("lang")]}</p>
                   </div>
                   <div className='card'>
                       <img src={user1} alt='user1' class="user1"/>
                       <p><span>Karl</span></p>
-                      <p>I am a 5th Year Student of Epitech Berlin and did my exchange year together with Niffi in Jönköping, Sweden. I am the Backend-Lead of the Team, database-manager and the go to supporter for backend.</p>
-                      <p>BackEnd Lead</p>
+                      <p>{translate["Karl"][localStorage.getItem("lang")]}</p>
+                      <p>{translate["BackEndLead"][localStorage.getItem("lang")]}</p>
                   </div>
                   <div className='card'>
                       <img src={user5} alt='user1'class="user1"/>
                       <p><span>Marcel</span></p>
-                      <p>I am a Tek5 student at Epitech Berlin and I am currently doing my year abroad in the UK. At DynaFood I am mostly working in the backend.</p>
-                      <p>BackEnd</p>
+                      <p>{translate["Marcel"][localStorage.getItem("lang")]}</p>
+                      <p>{translate["BackEnd"][localStorage.getItem("lang")]}</p>
                   </div>
                 </div>
                 <div className='content'>
                   <div className='card'>
                       <img src={user6} alt='user1' class="user1"/>
                       <p><span>Niffi</span></p>
-                      <p>I am a Tek5 Student of Epitech Berlin and did my exchange in Jönköping in Sweden. I am the Frontend-Lead of DynaFood and take care about the meetings and other organizational things.</p>
-                      <p>FrontEnd Lead</p>
+                      <p>{translate["Niffi"][localStorage.getItem("lang")]}</p>
+                      <p>{translate["FrontEndLead"][localStorage.getItem("lang")]}</p>
                   </div>
                   <div className='card'>
                       <img src={user4} alt='user1' class="user1"/>
-                      <p><span>Poul</span></p>
-                      <p>I am a Tek4 student at Epitech Paris, currently in Berlin for my year abroad. I am working on the backend part of the project</p>
-                      <p>BackEnd</p>
+                      <p><span>Pol</span></p>
+                      <p>{translate["Pol"][localStorage.getItem("lang")]}</p>
+                      <p>{translate["BackEnd"][localStorage.getItem("lang")]}</p>
                   </div>
                   <div className='card'>
                       <img src={user3} alt='user1' class="user1"/>
                       <p><span>Jurdyc</span></p>
-                      <p>I am a Tek5 Student of Epitech Berlin. My exchange year was in Daegu, South Korea. I am focusing on front-end, styling and testing for the front-end.</p>
-                      <p>FrontEnd & Project Owner</p>
+                      <p>{translate["Jurdyc"][localStorage.getItem("lang")]}</p>
+                      <p>{translate["FrontProd"][localStorage.getItem("lang")]}</p>
                   </div>
               </div>
           </div>

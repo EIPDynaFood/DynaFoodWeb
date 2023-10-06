@@ -3,6 +3,7 @@ import './Footer.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import img1 from '../images/logo_frame.png'
+import translate from './../Translation/Footer.json'
 
 function Footer() {
   return (
@@ -10,23 +11,23 @@ function Footer() {
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>About Us</h2>
-            <Link to='/'>How it works</Link>
-            <Link to='/'>Testimonials</Link>
-            <Link to='/'>Terms of Service</Link>
+            <h2>{translate["AboutUs"][localStorage.getItem("lang")]}</h2>
+            <Link to='/'>{translate["Works"][localStorage.getItem("lang")]}</Link>
+            <Link to='/'>{translate["Testimonials"][localStorage.getItem("lang")]}</Link>
+            <Link to='/'>{translate["Service"][localStorage.getItem("lang")]}</Link>
           </div>
           <div class='footer-link-items'>
-            <h2>Contact Us</h2>
-            <Link to='/contact'>Contact</Link>
+            <h2>{translate["ContactUs"][localStorage.getItem("lang")]}</h2>
+            <Link to='/contact'>{translate["Contact"][localStorage.getItem("lang")]}</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
+            <h2>{translate["SocialMedia"][localStorage.getItem("lang")]}</h2>
+            <Link to='/'>{translate["Instagram"][localStorage.getItem("lang")]}</Link>
+            <Link to='/'>{translate["Facebook"][localStorage.getItem("lang")]}</Link>
+            <Link to='/'>{translate["Youtube"][localStorage.getItem("lang")]}</Link>
+            <Link to='/'>{translate["Twitter"][localStorage.getItem("lang")]}</Link>
           </div>
         </div>
       </div>

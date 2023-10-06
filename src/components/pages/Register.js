@@ -4,6 +4,7 @@ import './Register.css';
 import video1 from '../../images/video-4.mp4';
 import axios from 'axios';
 import {useHistory } from 'react-router-dom';
+import translate from './../../Translation/Register.json'
 
 function Register(props) {
   const [firstname, setFirstname] = useState('');
@@ -69,7 +70,7 @@ function Register(props) {
         <div className="registerContent">
           <img src={require('../../images/logo_frame.png')} alt="Logo" className="registerlogo" />
           <input
-            placeholder="First Name"
+            placeholder={translate["FirstName"][localStorage.getItem("lang")]}
             className="registerinput"
             type="text"
             id="firstname"
@@ -78,7 +79,7 @@ function Register(props) {
             onChange={handleFirstnameChange}
           />
           <input
-            placeholder="Last Name"
+            placeholder={translate["LastName"][localStorage.getItem("lang")]}
             className="registerinput"
             type="text"
             id="lastname"
@@ -87,7 +88,7 @@ function Register(props) {
             onChange={handleLastnameChange}
           />
           <input
-            placeholder="Email"
+            placeholder={translate["Email"][localStorage.getItem("lang")]}
             className="registerinput"
             type="email"
             id="email"
@@ -96,7 +97,7 @@ function Register(props) {
             onChange={handleEmailChange}
           />
           <input
-            placeholder="Password"
+            placeholder={translate["Password"][localStorage.getItem("lang")]}
             className="registerinput"
             type="password"
             id="password"
@@ -105,7 +106,7 @@ function Register(props) {
             onChange={handlePasswordChange}
           />
           <input
-            placeholder="Confirm Password"
+            placeholder={translate["CPassword"][localStorage.getItem("lang")]}
             className="registerinput"
             type="password"
             id="Cpassword"
@@ -113,8 +114,8 @@ function Register(props) {
             value={Cpassword}
             onChange={handleCPasswordChange}
           />
-          <button className="registerprimaryButtonStyle" onClick={handleSubmit}>Register</button>
-          <p className="registerText">Already have an account? <a href="/login">Login here</a></p>
+          <button className="registerprimaryButtonStyle" onClick={handleSubmit}>{translate["Register"][localStorage.getItem("lang")]}</button>
+          <p className="registerText">{translate["Account"][localStorage.getItem("lang")]} <a href="/login">{translate["Login"][localStorage.getItem("lang")]}</a></p>
         </div>
       </div>
       <Footer />

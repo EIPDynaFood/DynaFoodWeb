@@ -4,6 +4,7 @@ import { Button } from './Button';
 import './VideoSection.css';
 import img1 from '../images/logo_frame_invisible.png';
 import video1 from '../images/video-4.mp4';
+import translate from './../Translation/Home.json'
 
 function VideoSection() {
 
@@ -20,7 +21,7 @@ function VideoSection() {
     <div className='hero-container'>
       <video src={video1} autoPlay loop muted />
       <img src={img1} alt="logo_frame_invisible"/>
-      <p>a mobile application that allows users to track and evaluate the environmental impact and nutritional value of their groceries.</p>
+      <p>{translate["Home"][localStorage.getItem("lang")]}</p>
       <div className='hero-btns'>
         <Button
           className='btns'
@@ -28,14 +29,14 @@ function VideoSection() {
           buttonSize='btn--large'
           link="/services"
         >
-          Details
+          {translate["Details"][localStorage.getItem("lang")]}
         </Button>
         <Button
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
         >
-          Download the App <i className='far fa-play-circle' />
+          {translate["Download"][localStorage.getItem("lang")]} <i className='far fa-play-circle' />
         </Button>
       </div>
     </div>

@@ -4,6 +4,7 @@ import './Login.css';
 import { Link, useHistory } from 'react-router-dom';
 import videoFile from '../../images/video-4.mp4';
 import axios from 'axios';
+import translate from './../../Translation/Login.json'
 
 function Login(props) {
   const [email, setEmail] = useState('');
@@ -27,7 +28,6 @@ function Login(props) {
 };
   axios(config)
     .then(function (response) {
-      alert(response.data["token"]);
       localStorage.setItem('token', response.data["token"])
       localStorage.setItem('refresh_token', response.data["refresh_token"])
       history.push('/');
@@ -46,7 +46,7 @@ function Login(props) {
         <div className="loginContent">
           <img src={require('../../images/logo_frame.png')} alt="Logo" className="loginlogo" />
           <input
-            placeholder='email'
+            placeholder={translate["Email"][localStorage.getItem("lang")]}
             className="logininput"
             type="email"
             id="email"
@@ -55,7 +55,7 @@ function Login(props) {
             onChange={handleEmailChange}
           />
           <input
-            placeholder='password'
+            placeholder={translate["Password"][localStorage.getItem("lang")]}
             className="logininput"
             type="password"
             id="password"
@@ -63,9 +63,9 @@ function Login(props) {
             value={password}
             onChange={handlePasswordChange}
           />
-          <button className="loginprimaryButtonStyle" onClick={handleSubmit}>Login</button>
+          <button className="loginprimaryButtonStyle" onClick={handleSubmit}>{translate["Login"][localStorage.getItem("lang")]}</button>
           <Link to='/register'>
-            <button className="loginsecondaryButtonStyle">Register</button>
+            <button className="loginsecondaryButtonStyle">{translate["Register"][localStorage.getItem("lang")]}</button>
           </Link>
         </div>
       </div>

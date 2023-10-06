@@ -8,12 +8,13 @@ import img1 from '../images/logo_frame.png';
 import enFlag from '../images/us.png';
 import frFlag from '../images/fr.png';
 import deFlag from '../images/de.png';
+import translate from './../Translation/Navbar.json'
 
 function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
   const storedToken = localStorage.getItem('token');
-
+  const storedLang = localStorage.getItem('lang');
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
@@ -27,14 +28,22 @@ function Navbar() {
 
   useEffect(() => {
     showButton();
-    alert(localStorage.getItem('token'))
+    if (localStorage.getItem("lang") == null)
+    {
+        localStorage.setItem("lang","en");
+    }
+    setLocale(localStorage.getItem("lang"))
+    console.log(localStorage.getItem("lang"))
   }, []);
 
   window.addEventListener('resize', showButton);
 
   const [locale, setLocale] = useState('en');
+  
   const handleChange = (e) => {
-    setLocale(e.target.value);
+    localStorage.setItem("lang",e)
+    setLocale(e)
+    window.location.reload()
   }
 
   const CustomOption = ({ innerProps, label, data }) => (
@@ -60,8 +69,23 @@ function Navbar() {
       label: ' German',
       icon: deFlag,
     },
+    {
+      value: 'it',
+      label: '  Italian',
+      icon: enFlag, // Import or provide the image URL
+    },
+    {
+      value: 'pt',
+      label: '  Portuguese',
+      icon: enFlag,
+    },
+    {
+      value: 'es',
+      label: ' Spanish',
+      icon: enFlag,
+    },
   ];
-
+/*
   const message = {
     en: {
       DynaFood: '_EN   ',
@@ -91,11 +115,11 @@ function Navbar() {
       Login: 'Login',
     },
   };
-
+*/
+const defaultLanguageOption = languageOptions.find(option => option.value === storedLang);
   return (
     <>
 
-     <IntlProvider locale={locale} messages={message[locale]}>
       <nav className='navbar'>
 
         <div className='navbar-container'>
@@ -108,7 +132,7 @@ function Navbar() {
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
               <Link to='/' params={{ lang: "eng" }} className='nav-links' onClick={closeMobileMenu}>
-                <FormattedMessage id="Home"/>
+              {translate["Home"][localStorage.getItem("lang")]}
               </Link>
             </li>
             <li className='nav-item'>
@@ -117,7 +141,7 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                <FormattedMessage id="Apps"/>
+                {translate["Apps"][localStorage.getItem("lang")]}
               </Link>
             </li>
             <li className='nav-item'>
@@ -126,7 +150,7 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                <FormattedMessage id="Team"/>
+                {translate["Team"][localStorage.getItem("lang")]}
               </Link>
             </li>
             <li className='nav-item'>
@@ -135,27 +159,27 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                <FormattedMessage id="Contact"/>
+                {translate["Contact"][localStorage.getItem("lang")]}
               </Link>
             </li>
             <li className='nav-item'>
             {storedToken ? (
     <Link to='/profil' className='nav-links' onClick={closeMobileMenu}>
-      <FormattedMessage id="Profil"/>
+      {translate["Profil"][localStorage.getItem("lang")]}
     </Link>
   ) : (
     <Link to='/login' className='nav-links' onClick={closeMobileMenu}>
-      <FormattedMessage id="Login"/>
+      {translate["Login"][localStorage.getItem("lang")]}
     </Link>
   )}
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'><FormattedMessage id="Download"/></Button>}
+          {button && <Button buttonStyle='btn--outline'>{translate["Download"][localStorage.getItem("lang")]}</Button>}
         </div>
         <Select
           options={languageOptions}
-          defaultValue={languageOptions[0]} // Set the initial selected option
-          onChange={(selectedOption) => setLocale(selectedOption.value)} // Handle change event
+          defaultValue={defaultLanguageOption} // Set the initial selected option
+          onChange={(selectedOption) => handleChange(selectedOption.value)}
           styles={{
             control: (provided) => ({
               ...provided,
@@ -177,7 +201,6 @@ function Navbar() {
           }}
         />
       </nav>
-      </IntlProvider>
     </>
   );
 }

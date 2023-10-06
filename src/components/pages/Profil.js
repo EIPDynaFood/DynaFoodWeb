@@ -3,7 +3,12 @@ import Footer from '../Footer';
 import { useHistory } from 'react-router-dom';
 import videoFile from '../../images/video-4.mp4';
 import axios from 'axios';
+import translate from './../../Translation/Profil.json'
 
+
+function premiereLettreEnMajuscule(chaine) {
+  return chaine.charAt(0).toUpperCase() + chaine.slice(1);
+}
 
 // Utilisez un état local pour suivre la couleur de fond actuelle des boutons
 function Profil() {
@@ -143,7 +148,26 @@ function Profil() {
                 throw(error);
             alert(error);
         });
-})
+        axios.get('http://x2024dynafood545437452001.westeurope.cloudapp.azure.com:8081/' + "settings", {headers: {Authorization: `Bearer `+ localStorage.getItem("token")}})
+        .then(function (response) {
+          const res = response.data;
+      const newElements = [];
+
+      res.forEach((item) => {
+        const tmp = premiereLettreEnMajuscule(item.restrictionname);
+        console.log(tmp);
+        if (tmp !== 'Vegan' && tmp !== 'Vegetarian') {
+          newElements.push(tmp);
+        }
+      });
+
+      setElementsAjoutes((prevElements) => [...prevElements, ...newElements]);
+    }).catch(function (error) {
+          if (error.response.status === 401)
+              throw(error);
+          alert(error);
+      });
+}, []);
   const handleLogout = () => {
     // Effectuez ici toute logique de déconnexion, par exemple, déconnexion depuis votre backend, suppression de jetons, etc.
     localStorage.removeItem('token');
@@ -162,23 +186,36 @@ function Profil() {
     //history.push('/');
     //window.location.reload();
     const config = {
-      method: 'get',
-      url: 'http://x2024dynafood545437452001.westeurope.cloudapp.azure.com:8081/' + 'settings',
+      method: 'delete',
+      url: 'http://x2024dynafood545437452001.westeurope.cloudapp.azure.com:8081/' + 'user',
+      headers: {
+        Authorization: `Bearer `+ localStorage.getItem("token"),
+        }
       
   };
   axios(config)
       .then(function (response) {
-          alert(response.data)
+        localStorage.removeItem('token');
+        localStorage.removeItem('refresh_token');
+        // Actualisez la page pour déconnecter l'utilisateur
+        history.push('/');
+        window.location.reload();
       })
       .catch(function (error) {
-          alert(error);
+          console.log(error);
       });
   };
-
+  const AfficherElement = (element) => {
+    console.log(element)
+    if (!elementsAjoutes.includes(element)) {
+    const nouvelleListe = [...elementsAjoutes, element];
+    setElementsAjoutes(nouvelleListe);
+    }
+  }
   
   // Fonction pour ajouter un élément à la liste
   const ajouterElement = (element) => {
-
+    console.log(element)
     if (!elementsAjoutes.includes(element)) {
       console.log(element)
       let qs = require('qs')
@@ -196,8 +233,8 @@ function Profil() {
           }
         };
         axios(config).then(function (response) {
-          alert(response.data)
-          setElementsAjoutes([...elementsAjoutes, element])
+          const nouvelleListe = [...elementsAjoutes, element];
+          setElementsAjoutes(nouvelleListe);
       })
       .catch(function (error) {
           alert(error);
@@ -209,8 +246,17 @@ function Profil() {
   // Fonction pour supprimer un élément de la liste
   const supprimerElement = (index) => {
     const nouvelleListe = [...elementsAjoutes];
-    nouvelleListe.splice(index, 1);
-    setElementsAjoutes(nouvelleListe);
+    const listValue = nouvelleListe[index].toLowerCase()
+    axios.delete('http://x2024dynafood545437452001.westeurope.cloudapp.azure.com:8081/' + "settings", {headers: {Authorization: `Bearer `+ localStorage.getItem("token")}, data: {'restrictionName': `${listValue}`}})
+    .then(function (response) {
+      nouvelleListe.splice(index, 1);
+      setElementsAjoutes(nouvelleListe);
+  })
+  .catch(function (error) {
+      if (error.response.status === 401)
+          throw(error)
+      console.log(error);
+  });
   };
 
   // Liste prédéfinie d'éléments
@@ -278,7 +324,7 @@ function Profil() {
         <video style={videoStyles} autoPlay loop muted>
           <source src={videoFile} type="video/mp4" />
         </video> 
-        <h1>Profil Page</h1>
+        <h1>{translate["Profil"][localStorage.getItem("lang")]}</h1>
         <div>
           <button
             style={{ ...buttonStyle, backgroundColor: veganButtonColor }}
@@ -287,7 +333,7 @@ function Profil() {
               )
             }
           >
-            Vegan
+            {translate["Vegan"][localStorage.getItem("lang")]}
           </button>
           <div>{veganButtonText}</div>
         </div>
@@ -299,12 +345,12 @@ function Profil() {
               )
             }
           >
-            Vegetarian
+            {translate["Vegetarian"][localStorage.getItem("lang")]}
           </button>
           <div>{vegetarienButtonText}</div>
         </div>
         <div style={{ marginBottom: "20px" }}>
-          <h2>Allergies</h2>
+          <h2>{translate["Allergies"][localStorage.getItem("lang")]}</h2>
           <select onChange={(e) => ajouterElement(e.target.value)}>
             {elementsPredefinis.map((element) => (
               <option key={element} value={element}>
@@ -312,25 +358,26 @@ function Profil() {
               </option>
             ))}
           </select>
-          <div style={{ marginTop: "10px" }}>Your Allergies:</div>
+          <div style={{ marginTop: "10px" }}>{translate["YourAllergies"][localStorage.getItem("lang")]}</div>
           <ul>
             {elementsAjoutes.map((element, index) => (
               <li key={index}>
                 {element}{" "}
-                <button onClick={() => supprimerElement(index)}>Delete</button>
+                <button onClick={() => supprimerElement(index)}>{translate["Delete"][localStorage.getItem("lang")]}</button>
               </li>
             ))}
           </ul>
         </div>
         <button onClick={handleLogout} style={logoutButtonStyle}>
-          Logout
+        {translate["Logout"][localStorage.getItem("lang")]}
         </button>
         <button onClick={handleTest} style={logoutButtonStyle}>
-          Test
+        {translate["Delete"][localStorage.getItem("lang")]}
         </button>
       </div>
       <Footer />
     </>
+    
   );
 }
 
