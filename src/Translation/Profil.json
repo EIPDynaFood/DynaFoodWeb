@@ -1,0 +1,82 @@
+{ 
+   "YourAllergies": { 
+    "de": "Ihre Allergien: ", 
+    "en": "Your Allergies: ", 
+    "fr": "Vos allergies : ", 
+    "es": "Sus alergias: ", 
+    "pt": "As suas alergias: ", 
+    "it": "Le vostre allergie: " 
+   }, 
+   "Profil": { 
+    "de": "Profil Seite", 
+    "en": "Profil Page", 
+    "fr": "Profil Page", 
+    "es": "Página de perfil", 
+    "pt": "Página de perfil", 
+    "it": "Pagina del profilo"  
+   },
+   "No": { 
+     "de": "Nein", 
+     "en": "No", 
+     "fr": "Non", 
+     "es": "No", 
+     "pt": "Não", 
+     "it": "No" 
+   }, 
+   "Casual": { 
+     "de": "Gelegentlich", 
+     "en": "Casually", 
+     "fr": "Occasionnellement", 
+     "es": "Casualmente", 
+     "pt": "Casualmente", 
+     "it": "Casualmente" 
+   }, 
+   "Strict": { 
+     "de": "Streng", 
+     "en": "Strictly", 
+     "fr": "Strictement", 
+     "es": "Estrictamente", 
+     "pt": "Estritamente", 
+     "it": "Rigorosamente" 
+   },
+   "Logout": {
+    "de": "Ausloggen",
+    "en": "Logout",
+    "fr": "Déconnexion",
+    "es" : "Cerrar sesión",
+    "pt" : "Sair",
+    "it" : "Disconnessione"
+  },
+  "Delete": {
+    "de": "Löschen",
+    "en": "Delete",
+    "fr": "Supprimer",
+    "es" : "Borrar",
+    "pt" : "Eliminar",
+    "it" : "Cancellare"
+  },
+  "Allergies": {
+    "de": "Allergien",
+    "en": "Allergies",
+    "fr": "Allergies",
+    "es" : "Alergias",
+    "pt" : "Alergias",
+    "it" : "Allergie"
+  },
+  "Vegan": {
+    "de": "Vegan",
+    "en": "Vegan",
+    "fr": "Vegan",
+    "es" : "Vegano",
+    "pt" : "Vegan",
+    "it" : "Vegano"
+  },
+  "Vegetarian": {
+    "de": "Vegetarisch",
+    "en": "Vegetarian",
+    "fr" : "Végétarien",
+    "es" : "Vegetariano",
+    "pt" : "Vegetariano",
+    "it" : "Vegetariano"
+  }
+}

@@ -1,0 +1,42 @@
+{
+"ContactHere": { 
+    "de": "Kontakt hier",
+    "en": "Contact Here",
+    "fr": "Contact ici",
+    "es" : "Contacto",
+    "pt" : "Contactar aqui",
+    "it" : "Contatto"
+   }, 
+   "Name": { 
+    "de": "Name eingeben",
+    "en": "Enter Name",
+    "fr": "Entrez votre nom",
+    "es" : "Introduzca el nombre",
+    "pt" : "Introduzir nome",
+    "it" : "Inserisci il nome"
+   },
+   "Type": { 
+    "de": "Hier eingeben",
+    "en": "Type Here",
+    "fr": "Tapez ici",
+    "es" : "Escriba aquí",
+    "pt" : "Digite aqui",
+    "it" : "Digita aqui"
+   },
+   "Send": { 
+    "de": "Senden",
+    "en": "Send",
+    "fr": "Envoyer",
+    "es" : "Enviar",
+    "pt" : "Enviar",
+    "it" : "Invia"
+   },
+   "Tel": { 
+    "de": "+69...",
+    "en": "+69...",
+    "fr": "+33...",
+    "es" : "+69...",
+    "pt" : "+69...",
+    "it" : "+69..."
+}
+}

@@ -1,0 +1,66 @@
+{ 
+   "DynaFood": { 
+    "de": "_DE   ", 
+    "en": "_EN   ", 
+    "fr": "_FR   ", 
+    "es": "_ES   ", 
+    "pt": "_PT   ", 
+    "it": "_IT   " 
+   }, 
+   "Home": { 
+    "de": "Willkommen", 
+    "en": "Home", 
+    "fr": "Accueil", 
+    "es": "Inicio", 
+    "pt": "Início", 
+    "it": "Casa"  
+   },
+   "Apps": { 
+     "de": "Anwendung", 
+     "en": "Apps", 
+     "fr": "Application", 
+     "es": "Aplicaciones", 
+     "pt": "Aplicações", 
+     "it": "Applicazioni" 
+   },
+   "Team": { 
+    "de": "Der team", 
+    "en": "Team", 
+    "fr": "La team", 
+    "es": "Equipo", 
+    "pt": "Equipa", 
+    "it": "Squadra" 
+   }, 
+   "Contact": { 
+    "de": "Begleiten Sie uns", 
+    "en": "Contact Us", 
+    "fr": "Nous contacter", 
+    "es": "Póngase en contacto con nosotros", 
+    "pt": "Contacto", 
+    "it": "Contatti"  
+   },
+   "Download": { 
+     "de": "Unterladen", 
+     "en": "Download", 
+     "fr": "Telecharger", 
+     "es": "Descargar", 
+     "pt": "Descarregar", 
+     "it": "Scaricare" 
+   },
+   "Login": { 
+    "de": "Login", 
+    "en": "Login", 
+    "fr": "Connecter", 
+    "es": "Inicio de sesión", 
+    "pt": "Iniciar sessão", 
+    "it": "Accesso"  
+   },
+   "Profil": { 
+     "de": "Profil", 
+     "en": "Profil", 
+     "fr": "Profil", 
+     "es": "Perfil", 
+     "pt": "Perfil", 
+     "it": "Profilo" 
+   }
+}

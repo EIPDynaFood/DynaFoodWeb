@@ -1,0 +1,66 @@
+{ 
+   "Email": { 
+    "de": "E-Mail Adresse...",
+    "en": "Email...",
+    "fr": "Email...",
+    "es" : "Correo electrónico...",
+    "pt" : "Email...",
+    "it" : "Email..."
+   }, 
+   "Password": { 
+    "de": "Passwort...",
+    "en": "Password...",
+    "fr": "Mot de passe...",
+    "es" : "Contraseña...",
+    "pt" : "Senha...",
+    "it" : "Password..."
+   },
+   "CPassword": { 
+    "de": "Bestätigen Sie Ihr Passwort...",
+    "en": "Confirm Password...",
+    "fr": "Confirmer le mot de passe...",
+    "es" : "Confirmar contraseña...",
+    "pt" : "Confirmar a palavra-passe...",
+    "it" : "Conferma la password..."
+   },
+   "FirstName": { 
+    "de": "Vornamen",
+    "en": "First Name",
+    "fr": "Prénom",
+    "es" : "Nombre de pila",
+    "pt" : "Nome próprio",
+    "it" : "Nome"
+   },
+   "LastName": { 
+    "de": "Nachname",
+    "en": "Last Name",
+    "fr": "Nom de famille",
+    "es" : "Apellido",
+    "pt" : "Apelido",
+    "it" : "Cognome"
+   },
+   "Login": { 
+    "de": "Hier anmelden",
+    "en": "Login",
+    "fr": "Connexion ici",
+    "es" : "Conéctese aquí",
+    "pt" : "Iniciar sessão aqui",
+    "it" : "Accedi qui"
+   },
+   "Register": { 
+    "de": "Registrieren",
+    "en": "Register",
+    "fr": "Enregistrez",
+    "es" : "Registrarse",
+    "pt" : "Registe-se",
+    "it" : "Registrazione"
+   },
+   "Account": { 
+    "de": "Sie haben bereits ein Konto?",
+    "en": "Already have an account?",
+    "fr": "Vous avez déjà un compte ?",
+    "es" : "¿Ya tiene una cuenta?",
+    "pt" : "Já tem uma conta?",
+    "it" : "Avete già un account?"
+   }
+}

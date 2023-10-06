@@ -1,0 +1,90 @@
+{ 
+   "AboutUs": { 
+    "de": "Über uns", 
+    "en": "About Us", 
+    "fr": "À propos de nous", 
+    "es": "Quiénes somos", 
+    "pt": "Sobre nós", 
+    "it": "Chi siamo" 
+   }, 
+   "Works": { 
+    "de": "Wie es funktioniert", 
+    "en": "How it works", 
+    "fr": "Comment cela fonctionne-t-il ?", 
+    "es": "Cómo funciona", 
+    "pt": "Como funciona", 
+    "it": "Come funziona"  
+   },
+   "Testimonials": { 
+     "de": "Testimonials", 
+     "en": "Testimonials", 
+     "fr": "Témoignages", 
+     "es": "Testimonios", 
+     "pt": "Testemunhos", 
+     "it": "Testimonianze" 
+   },
+   "Service": { 
+    "de": "Bedingungen der Dienstleistung", 
+    "en": "Terms of Service", 
+    "fr": "Conditions d'utilisation", 
+    "es": "Condiciones de uso", 
+    "pt": "Termos do serviço", 
+    "it": "Termini di servizio" 
+   }, 
+   "ContactUs": { 
+    "de": "Begleiten Sie uns", 
+    "en": "Contact Us", 
+    "fr": "Nous contacter", 
+    "es": "Póngase en contacto con nosotros", 
+    "pt": "Contacto", 
+    "it": "Contatti"  
+   },
+   "Contact": { 
+     "de": "Kontakt", 
+     "en": "Contact", 
+     "fr": "Contact", 
+     "es": "Póngase en contacto con", 
+     "pt": "Contacto", 
+     "it": "Contatto" 
+   },
+   "SocialMedia": { 
+    "de": "Soziale Medien", 
+    "en": "Social Media", 
+    "fr": "Médias sociaux", 
+    "es": "Redes sociales", 
+    "pt": "Redes sociais", 
+    "it": "Media sociali"  
+   },
+   "Instagram": { 
+     "de": "Instagram", 
+     "en": "Instagram", 
+     "fr": "Instagram", 
+     "es": "Instagram", 
+     "pt": "Instagram", 
+     "it": "Instagram" 
+   },
+   "Facebook": { 
+    "de": "Facebook", 
+    "en": "Facebook", 
+    "fr": "Facebook", 
+    "es": "Facebook", 
+    "pt": "Facebook", 
+    "it": "Facebook" 
+   }, 
+   "Youtube": { 
+    "de": "Youtube", 
+    "en": "Youtube", 
+    "fr": "Youtube", 
+    "es": "Youtube", 
+    "pt": "Youtube", 
+    "it": "Youtube"  
+   },
+   "Twitter": { 
+    "de": "Twitter", 
+    "en": "Twitter", 
+    "fr": "Twitter", 
+    "es": "Twitter", 
+    "pt": "Twitter", 
+    "it": "Twitter"  
+   }
+}

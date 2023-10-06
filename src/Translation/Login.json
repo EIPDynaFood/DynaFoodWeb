@@ -1,0 +1,34 @@
+{ 
+   "Email": { 
+    "de": "E-Mail Adresse...",
+    "en": "Email...",
+    "fr": "Email...",
+    "es" : "Correo electrónico...",
+    "pt" : "Email...",
+    "it" : "Email..."
+   }, 
+   "Password": { 
+    "de": "Passwort...",
+    "en": "Password...",
+    "fr": "Mot de passe...",
+    "es" : "Contraseña...",
+    "pt" : "Senha...",
+    "it" : "Password..."
+   },
+   "Login": { 
+    "de": "Einloggen",
+    "en": "Login",
+    "fr": "Connexion",
+    "es" : "Iniciar sesión",
+    "pt" : "Login",
+    "it" : "Accesso"
+   },
+   "Register": { 
+    "de": "Registrieren",
+    "en": "Register",
+    "fr": "Enregistrez",
+    "es" : "Registrarse",
+    "pt" : "Registe-se",
+    "it" : "Registrazione"
+   }
+}

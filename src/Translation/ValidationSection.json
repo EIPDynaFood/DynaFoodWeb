@@ -1,0 +1,26 @@
+{ 
+   "Verif": { 
+    "de": "Sie haben eine E-Mail zur Verifizierung Ihres Kontos erhalten.", 
+    "en": "An email has been send to verify your account", 
+    "fr": "Un email a été envoyé pour vérifier votre compte", 
+    "es": "Se ha enviado un correo electrónico para verificar su cuenta", 
+    "pt": "Foi enviado um e-mail para verificar a sua conta", 
+    "it": "È stata inviata un'e-mail per verificare il vostro account" 
+   }, 
+   "Thank": { 
+    "de": "Danke, dass Sie unsere Anwendung nutzen", 
+    "en": "Thank you for using our application", 
+    "fr": "Merci d'avoir utilisé notre application", 
+    "es": "Gracias por utilizar nuestra aplicación", 
+    "pt": "Obrigado por utilizar a nossa aplicação", 
+    "it": "Grazie per aver utilizzato la nostra applicazione"  
+   },
+   "Back": { 
+     "de": "Zurück zur Homepage", 
+     "en": "Back to Homepage", 
+     "fr": "Retour à la page d'accueil", 
+     "es": "Volver a la página de inicio", 
+     "pt": "Voltar à página inicial", 
+     "it": "Torna alla homepage" 
+   }
+}
