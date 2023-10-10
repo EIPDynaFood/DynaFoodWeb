@@ -12,6 +12,8 @@ import Login from './components/pages/Login';
 import Register from './components/pages/Register';
 import Profil from './components/pages/Profil';
 import Validation from './components/pages/Validation'
+import ResetPassword from './components/pages/ResetPassword';
+import SendEmail from './components/pages/SendEmail';
 
 function App() {
   return (
@@ -31,6 +33,8 @@ function App() {
           <Route path='/profil' component={Profil} />
           <Route path='/register' component={Register} />
           <Route path='/validation' component={Validation} />
+          <Route path='/resetPassword' component={ResetPassword} />
+          <Route path='/sendEmail' component={SendEmail} />
         </Switch>
       </Router>
     </>

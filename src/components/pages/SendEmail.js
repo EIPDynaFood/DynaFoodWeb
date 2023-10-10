@@ -4,11 +4,9 @@ import './Login.css';
 import { Link, useHistory } from 'react-router-dom';
 import videoFile from '../../images/video-4.mp4';
 import axios from 'axios';
-import translate from './../../Translation/Login.json'
 
-function Login(props) {
+function SendEmail(props) {
   const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
   const history = useHistory();
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -17,11 +15,9 @@ function Login(props) {
     setEmail(e.target.value);
   };
 
-  const handlePasswordChange = (e) => {
-    setPassword(e.target.value);
-  };
   const handleSubmit = (e) => {
-  const config = {
+    console.log("test")
+  /*const config = {
     method: 'get',
     url:  'http://x2024dynafood545437452001.westeurope.cloudapp.azure.com:8081/' + 'login?email=' + `${email}` + '&password=' + `${password}`,
     rejectUnauthorized: false,
@@ -35,7 +31,7 @@ function Login(props) {
     })
     .catch((error) => {
       alert(error)
-  })
+  })*/
   }
   return (
     <>
@@ -46,7 +42,7 @@ function Login(props) {
         <div className="loginContent">
           <img src={require('../../images/logo_frame.png')} alt="Logo" className="loginlogo" />
           <input
-            placeholder={translate["Email"][localStorage.getItem("lang")]}
+            placeholder="Email"
             className="logininput"
             type="email"
             id="email"
@@ -54,21 +50,10 @@ function Login(props) {
             value={email}
             onChange={handleEmailChange}
           />
-          <input
-            placeholder={translate["Password"][localStorage.getItem("lang")]}
-            className="logininput"
-            type="password"
-            id="password"
-            name="password"
-            value={password}
-            onChange={handlePasswordChange}
-          />
-          <button className="loginprimaryButtonStyle" onClick={handleSubmit}>{translate["Login"][localStorage.getItem("lang")]}</button>
-          <Link to='/register'>
-            <button className="loginsecondaryButtonStyle">{translate["Register"][localStorage.getItem("lang")]}</button>
-          </Link>
-          <Link to='/sendEmail'>
-            <button className="loginsecondaryButtonStyle">Reset Password</button>
+          <Link to='/resetPassword'>
+          <button className="loginprimaryButtonStyle" onClick={handleSubmit}>Reset Password</button></Link>
+          <Link to='/login'>
+            <button className="loginsecondaryButtonStyle">Back To login Page</button>
           </Link>
         </div>
       </div>
@@ -77,4 +62,4 @@ function Login(props) {
   );
 }
 
-export default Login;
+export default SendEmail;
