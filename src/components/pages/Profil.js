@@ -178,33 +178,7 @@ function Profil() {
     
   };
 
-  const handleTest = () => {
-    // Effectuez ici toute logique de déconnexion, par exemple, déconnexion depuis votre backend, suppression de jetons, etc.
-    //localStorage.removeItem('token');
-    //localStorage.removeItem('refresh_token');
-    // Actualisez la page pour déconnecter l'utilisateur
-    //history.push('/');
-    //window.location.reload();
-    const config = {
-      method: 'delete',
-      url: 'http://x2024dynafood545437452001.westeurope.cloudapp.azure.com:8081/' + 'user',
-      headers: {
-        Authorization: `Bearer `+ localStorage.getItem("token"),
-        }
-      
-  };
-  axios(config)
-      .then(function (response) {
-        localStorage.removeItem('token');
-        localStorage.removeItem('refresh_token');
-        // Actualisez la page pour déconnecter l'utilisateur
-        history.push('/');
-        window.location.reload();
-      })
-      .catch(function (error) {
-          console.log(error);
-      });
-  };
+  
   const AfficherElement = (element) => {
     console.log(element)
     if (!elementsAjoutes.includes(element)) {
@@ -370,9 +344,6 @@ function Profil() {
         </div>
         <button onClick={handleLogout} style={logoutButtonStyle}>
         {translate["Logout"][localStorage.getItem("lang")]}
-        </button>
-        <button onClick={handleTest} style={logoutButtonStyle}>
-        {translate["Delete"][localStorage.getItem("lang")]}
         </button>
       </div>
       <Footer />

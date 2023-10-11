@@ -36,7 +36,7 @@ function Login(props) {
       window.location.reload();
     })
     .catch((error) => {
-      alert(error.message)
+      alert(error.response.data.Error)
   
   })
   }

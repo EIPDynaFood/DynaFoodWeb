@@ -36,6 +36,10 @@ function Register(props) {
     setCPassword(e.target.value);
   };
   const handleSubmit = (e) => {
+    if (password !== Cpassword) {
+      alert("Not same password");
+      return
+  }
     var qs = require('qs');
             var data = qs.stringify({
                 'firstName': `${firstname}`,
@@ -60,7 +64,7 @@ function Register(props) {
             window.location.reload();
     })
     .catch((error) => {
-      alert(error)
+      alert(error.response.data.Error)
   })
   }
   return (

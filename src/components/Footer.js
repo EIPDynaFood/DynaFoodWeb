@@ -4,8 +4,47 @@ import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import img1 from '../images/logo_frame.png'
 import translate from './../Translation/Footer.json'
+import axios from 'axios';
+import { useHistory, useLocation  } from 'react-router-dom';
 
 function Footer() {
+  const storedToken = localStorage.getItem('token');
+  const storedLang = localStorage.getItem('lang');
+  const location = useLocation();
+  const currentPathname = location.pathname;
+  const history = useHistory();
+  const handleTest = () => {
+    
+    // Effectuez ici toute logique de déconnexion, par exemple, déconnexion depuis votre backend, suppression de jetons, etc.
+    //localStorage.removeItem('token');
+    //localStorage.removeItem('refresh_token');
+    // Actualisez la page pour déconnecter l'utilisateur
+    //history.push('/');
+    //window.location.reload();
+    const confirmed = window.confirm("Êtes-vous sûr de vouloir supprimer votre compte ?");
+    if (confirmed){
+    const config = {
+      method: 'delete',
+      url: 'http://x2024dynafood545437452001.westeurope.cloudapp.azure.com:8081/' + 'user',
+      headers: {
+        Authorization: `Bearer `+ localStorage.getItem("token"),
+        }
+      
+  };
+  axios(config)
+      .then(function (response) {
+        localStorage.removeItem('token');
+        localStorage.removeItem('refresh_token');
+        // Actualisez la page pour déconnecter l'utilisateur
+        history.push('/');
+        window.location.reload();
+      })
+      .catch(function (error) {
+          console.log(error);
+      });
+    }
+  };
+
   return (
     <div className='footer-container'>
       <div class='footer-links'>
@@ -15,6 +54,7 @@ function Footer() {
             <Link to='/'>{translate["Works"][localStorage.getItem("lang")]}</Link>
             <Link to='/'>{translate["Testimonials"][localStorage.getItem("lang")]}</Link>
             <Link to='/'>{translate["Service"][localStorage.getItem("lang")]}</Link>
+            
           </div>
           <div class='footer-link-items'>
             <h2>{translate["ContactUs"][localStorage.getItem("lang")]}</h2>
@@ -28,6 +68,9 @@ function Footer() {
             <Link to='/'>{translate["Facebook"][localStorage.getItem("lang")]}</Link>
             <Link to='/'>{translate["Youtube"][localStorage.getItem("lang")]}</Link>
             <Link to='/'>{translate["Twitter"][localStorage.getItem("lang")]}</Link>
+            {storedToken ? ( currentPathname == "/profil" ? (
+    <Link to='/profil' onClick={handleTest}>Delete Account</Link>
+  ) : null): null }
           </div>
         </div>
       </div>
