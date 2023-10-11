@@ -17,21 +17,19 @@ function SendEmail(props) {
 
   const handleSubmit = (e) => {
     console.log("test")
-  /*const config = {
+  const config = {
     method: 'get',
-    url:  'http://x2024dynafood545437452001.westeurope.cloudapp.azure.com:8081/' + 'login?email=' + `${email}` + '&password=' + `${password}`,
+    url:  'http://x2024dynafood545437452001.westeurope.cloudapp.azure.com:8081/' + 'resetPassword?email=' + `${email}`,
     rejectUnauthorized: false,
 };
   axios(config)
     .then(function (response) {
-      localStorage.setItem('token', response.data["token"])
-      localStorage.setItem('refresh_token', response.data["refresh_token"])
-      history.push('/');
+      history.push('/resetCode',{email});
       window.location.reload();
     })
     .catch((error) => {
       alert(error)
-  })*/
+  })
   }
   return (
     <>
@@ -50,8 +48,7 @@ function SendEmail(props) {
             value={email}
             onChange={handleEmailChange}
           />
-          <Link to='/resetPassword'>
-          <button className="loginprimaryButtonStyle" onClick={handleSubmit}>Reset Password</button></Link>
+          <button className="loginprimaryButtonStyle" onClick={handleSubmit}>Reset Password</button>
           <Link to='/login'>
             <button className="loginsecondaryButtonStyle">Back To login Page</button>
           </Link>

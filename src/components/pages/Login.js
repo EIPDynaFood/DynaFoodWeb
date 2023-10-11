@@ -26,6 +26,8 @@ function Login(props) {
     url:  'http://x2024dynafood545437452001.westeurope.cloudapp.azure.com:8081/' + 'login?email=' + `${email}` + '&password=' + `${password}`,
     rejectUnauthorized: false,
 };
+  console.log(email)
+  console.log(password)
   axios(config)
     .then(function (response) {
       localStorage.setItem('token', response.data["token"])
@@ -34,7 +36,8 @@ function Login(props) {
       window.location.reload();
     })
     .catch((error) => {
-      alert(error)
+      alert(error.message)
+  
   })
   }
   return (
