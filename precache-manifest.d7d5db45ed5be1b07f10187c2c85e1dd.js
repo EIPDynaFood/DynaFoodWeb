@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0a2272bbc9f8084391105fb543b8b40f",
+    "revision": "b9edd6d217f96ae6ea934a8e9e3c813b",
     "url": "/DynaFoodWeb/index.html"
   },
   {
-    "revision": "c10ed72a749b62ccdde5",
+    "revision": "8fa4a4f8f4d4553562ad",
     "url": "/DynaFoodWeb/static/css/2.ee96fe6c.chunk.css"
   },
   {
-    "revision": "26563b5d7cf29e7696a6",
-    "url": "/DynaFoodWeb/static/css/main.e5c4afc1.chunk.css"
+    "revision": "7ee81865894a8ff20dfa",
+    "url": "/DynaFoodWeb/static/css/main.665acfe0.chunk.css"
   },
   {
-    "revision": "c10ed72a749b62ccdde5",
-    "url": "/DynaFoodWeb/static/js/2.e889a105.chunk.js"
+    "revision": "8fa4a4f8f4d4553562ad",
+    "url": "/DynaFoodWeb/static/js/2.27ac242b.chunk.js"
   },
   {
     "revision": "9b9de423b52b798b8fc649e7d9e276fb",
-    "url": "/DynaFoodWeb/static/js/2.e889a105.chunk.js.LICENSE.txt"
+    "url": "/DynaFoodWeb/static/js/2.27ac242b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "26563b5d7cf29e7696a6",
-    "url": "/DynaFoodWeb/static/js/main.e9e55cff.chunk.js"
+    "revision": "7ee81865894a8ff20dfa",
+    "url": "/DynaFoodWeb/static/js/main.e220bd73.chunk.js"
   },
   {
     "revision": "fde1ef35a2ffc07eb668",
@@ -52,12 +52,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/DynaFoodWeb/static/media/logo_frame_invisible.79a33c60.png"
   },
   {
-    "revision": "971fd9d2273a55a7ede69adc5be5a026",
-    "url": "/DynaFoodWeb/static/media/marcel.971fd9d2.jpg"
+    "revision": "e389484d7053393ab9eb71e1ec100cf9",
+    "url": "/DynaFoodWeb/static/media/logo_frame_new.e389484d.png"
   },
   {
-    "revision": "7c23cc4007559259566051503f33799a",
-    "url": "/DynaFoodWeb/static/media/newmeow3.7c23cc40.png"
+    "revision": "971fd9d2273a55a7ede69adc5be5a026",
+    "url": "/DynaFoodWeb/static/media/marcel.971fd9d2.jpg"
   },
   {
     "revision": "701ca0fc6ef0fe73c3b450483bf13989",
@@ -74,6 +74,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8e95bcf2ae52f634f6e8050d099441bd",
     "url": "/DynaFoodWeb/static/media/outmane.8e95bcf2.jpg"
+  },
+  {
+    "revision": "efd5760e5885ca17449251620b95018e",
+    "url": "/DynaFoodWeb/static/media/pol.efd5760e.jpg"
+  },
+  {
+    "revision": "8c9c0d0da6ad9078f41900bdc02052d8",
+    "url": "/DynaFoodWeb/static/media/pr.8c9c0d0d.png"
   },
   {
     "revision": "cae41cb476c69451a2b915d674380f72",
@@ -94,6 +102,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d247f700657f1024d31bdce42e724a1b",
     "url": "/DynaFoodWeb/static/media/screen4.d247f700.png"
+  },
+  {
+    "revision": "adbcfade981c9d8ae75032f5ba52de9c",
+    "url": "/DynaFoodWeb/static/media/us.adbcfade.png"
   },
   {
     "revision": "131ec9f06e5ded66921fc619fa4a4d91",
