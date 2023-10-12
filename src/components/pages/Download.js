@@ -15,7 +15,7 @@ export default function Download() {
       const url = 'exp://u.expo.dev/update/e5bd7658-7816-4e9b-b240-602915b282ba';
       const link = document.createElement('a');
       link.href = url;
-      link.download = 'dyna.apk';
+      link.download = 'dyna';
       document.body.appendChild(link);
       link.click();
     } else if (platform === 'android') {

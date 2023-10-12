@@ -1,13 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
-import { IntlProvider, FormattedMessage } from 'react-intl';
 import './Navbar.css';
 import Select from 'react-select';
 import img1 from '../images/logo_frame.png';
 import enFlag from '../images/us.png';
 import frFlag from '../images/fr.png';
 import deFlag from '../images/de.png';
+import itFlag from '../images/it.png';
+import esFlag from '../images/es.png';
+import prFlag from '../images/pr.png';
 import translate from './../Translation/Navbar.json'
 
 function Navbar() {
@@ -39,7 +41,7 @@ function Navbar() {
   window.addEventListener('resize', showButton);
 
   const [locale, setLocale] = useState('en');
-  
+
   const handleChange = (e) => {
     localStorage.setItem("lang",e)
     setLocale(e)
@@ -72,50 +74,20 @@ function Navbar() {
     {
       value: 'it',
       label: '  Italian',
-      icon: enFlag, // Import or provide the image URL
+      icon: itFlag, // Import or provide the image URL
     },
     {
       value: 'pt',
       label: '  Portuguese',
-      icon: enFlag,
+      icon: prFlag,
     },
     {
       value: 'es',
       label: ' Spanish',
-      icon: enFlag,
+      icon: esFlag,
     },
   ];
-/*
-  const message = {
-    en: {
-      DynaFood: '_EN   ',
-      Home: 'Home',
-      Apps: 'Apps',
-      Team: 'Team',
-      Contact: 'Contact Us',
-      Download: 'Download',
-      Login: 'Login',
-    },
-    fr : {
-      DynaFood: '_FR   ',
-      Home: 'Accueil',
-      Apps: 'Application',
-      Team: 'La team',
-      Contact: 'Nous contactez',
-      Download: 'Telecharger',
-      Login: 'Connecter',
-    },
-    de : {
-      DynaFood: '_DE   ',
-      Home: 'Willkommen',
-      Apps: 'Anwendung',
-      Team: 'Der team',
-      Contact: 'Begleiten Sie uns',
-      Download: 'Unterladen',
-      Login: 'Login',
-    },
-  };
-*/
+
 const defaultLanguageOption = languageOptions.find(option => option.value === storedLang);
   return (
     <>
@@ -184,6 +156,7 @@ const defaultLanguageOption = languageOptions.find(option => option.value === st
             control: (provided) => ({
               ...provided,
               border: '1px solid #ccc',
+              width: '140px',
             }),
             option: (provided) => ({
               ...provided,
@@ -205,5 +178,4 @@ const defaultLanguageOption = languageOptions.find(option => option.value === st
   );
 }
 
-//<img src='logo_frame_invisible.png'/>
 export default Navbar;

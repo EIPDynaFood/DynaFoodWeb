@@ -16,6 +16,7 @@ video {
   align-items: center;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   object-fit: contain;
+
 }
 
 .hero-container > h1 {
@@ -30,6 +31,10 @@ video {
   font-size: 32px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
+
+  width: 80%; /* Set the width of the <p> text */
+  max-width: 800px; /* Set a maximum width if needed */
+  padding-top: 50px;
 }
 
 .hero-btns {

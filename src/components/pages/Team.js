@@ -1,13 +1,12 @@
 import React from 'react';
 import '../../App.css';
-import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y, EffectFade} from 'swiper';
 import Footer from '../Footer';
 import './Testimonials.css'
 import user1 from '../../images/karl.jpg'
 import user2 from '../../images/outmane.jpg'
 import user3 from '../../images/nicolas.png'
-import user4 from '../../images/newmeow3.png'
+import user4 from '../../images/pol.jpg'
 import user5 from '../../images/marcel.jpg'
 import user6 from '../../images/niffi.jpg'
 
@@ -70,44 +69,6 @@ const Testimonials = () => {
   )
 }
 
-/*const data = [
-  {
-    id: 1,
-    img: '../../../public/logo_frame.png',
-    username: 'Outmane',
-    story: 'I am a 4th Year Student of Epitech Berlin & Ambassador in South Korea, Sky League Chung-ang University. I am currently doing front-end and studying CS & electrical engineering'
-  },
-  {
-    id: 2,
-    img: '../../../public/logo_frame.png',
-    username: 'Karl',
-    story: 'I am a 4th Year Student of Epitech Berlin and did my exchange year together with Niffi in Jönköping, Sweden. I am the Backend-Lead of the Team, database-manager and the go to supporter for backend.'
-  },
-  {
-    id: 3,
-    img: '../../../public/logo_frame.png',
-    username: 'Marcel',
-    story: 'I am a Tek4 student at Epitech Berlin and I am currently doing my year abroad in the UK. At DynaFood I am mostly working in the backend.'
-  },
-  {
-    id: 4,
-    img: '../../../public/logo_frame.png',
-    username: 'Niffi',
-    story: 'I am a Tek4 Student of Epitech Berlin and did my exchange in Jönköping in Sweden. I am the Frontend-Lead of DynaFood and take care about the meetings and other organizational things.'
-  },
-  {
-    id: 5,
-    img: '../../../public/logo_frame.png',
-    username: 'Poul',
-    story: 'I am a Tek4 student at Epitech Paris, currently in Berlin for my year abroad. I am working on the backend part of the project'
-  },
-  {
-    id: 6,
-    img: '../../../public/logo_frame.png',
-    username: 'Niklas',
-    story: 'I am a Tek 4 Student of Epitech Berlin. My exchange year was in Daegu, South Korea. I am focusing on front-end, styling and testing for the front-end.'
-  },
-];*/
 
 export default function Team() {
   return (
@@ -117,29 +78,3 @@ export default function Team() {
     </>
   );
 }
-
-
-/*
-<Swiper
-        spaceBetween={50}
-        slidesPerView={3}
-        navigation
-        pagination={{ clickable: true }}
-        scrollbar={{ draggable: true }}
-        onSlideChange={() => console.log('slide change')}
-        onSwiper={(swiper) => console.log(swiper)}
-      >
-        { data.map( user => (
-          <SwiperSlide key={user.id} className="slide">
-            <div className="slide-content">
-
-              <h5>{user.username}</h5>
-              <p className="user-story"> "<i>{user.story}</i>" </p>
-            </div>
-          </SwiperSlide>
-        ))}
-      </Swiper>*/
-///// makes me crash, dunno why ??
-/*<div className="user-image">
-                <img src={user.img} alt="" className="user-photo"/>
-              </div>*/

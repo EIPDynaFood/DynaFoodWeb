@@ -32,7 +32,7 @@ function Login(props) {
     .then(function (response) {
       localStorage.setItem('token', response.data["token"])
       localStorage.setItem('refresh_token', response.data["refresh_token"])
-      history.push('/');
+      history.push('/profil');
       window.location.reload();
     })
     .catch((error) => {

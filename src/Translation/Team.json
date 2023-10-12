@@ -1,7 +1,7 @@
 { 
    "Outmane": { 
     "de": "Ich bin Student im 4. Jahr der Epitech Berlin und habe mein Austauschjahr zusammen mit Niffi in Jönköping, Schweden, absolviert. Ich bin der Backend-Lead des Teams, Datenbank-Manager und der Ansprechpartner für das Backend.", 
-    "en": "I am a 4th Year Student of Epitech Berlin & Ambassador in South Korea, Sky League Chung-ang University. I am currently doing front-end and studying CS & electrical engineering", 
+    "en": "I'm a Master's student and Epitech ambassador, focusing on frontend development for apps and web platforms. I studied CS & Electrical Engineering at CAU. My interests include IT, business, marketing, and International Relations. I'm passionate about enhancing my expertise and skillset.", 
     "fr": "Je suis étudiant en 4ème année à Epitech Berlin et j'ai fait mon année d'échange avec Niffi à Jönköping, en Suède. Je suis le Backend-Lead de l'équipe, le gestionnaire de la base de données et le supporter pour le backend.", 
     "es": "Soy un estudiante de 4 º año de Epitech Berlín e hice mi año de intercambio junto con Niffi en Jönköping, Suecia. Soy el Backend-Lead del equipo, gestor de bases de datos y la persona de apoyo para el backend.", 
     "pt": "Sou um estudante do 4º ano da Epitech Berlin e fiz o meu ano de intercâmbio com a Niffi em Jönköping, Suécia. Sou o Backend-Lead da equipa, gestor da base de dados e o apoiante para o backend.", 
@@ -9,7 +9,7 @@
    }, 
    "Karl": { 
     "de": "Ich bin Student im 4. Jahr der Epitech Berlin und habe mein Austauschjahr zusammen mit Niffi in Jönköping, Schweden, absolviert. Ich bin der Backend-Lead des Teams, Datenbank-Manager und der Ansprechpartner für das Backend.", 
-    "en": "I am a 4th Year Student of Epitech Berlin and did my exchange year together with Niffi in Jönköping, Sweden. I am the Backend-Lead of the Team, database-manager and the go to supporter for backend.", 
+    "en": "I'm Karl, the Backend-Lead and a Backend-Dev at Dynafood. I assign tasks, set rules, and do code reviews as the Backend-Lead. In the Developer-Team, I design databases, code APIs, and work on algorithms. I help peers with problem-solving and manage new releases and bug-fixing due to my backend expertise.", 
     "fr": "Je suis étudiant en 4ème année à Epitech Berlin et j'ai fait mon année d'échange avec Niffi à Jönköping, en Suède. Je suis le Backend-Lead de l'équipe, le gestionnaire de la base de données et le supporter pour le backend.", 
     "es": "Soy un estudiante de 4 º año de Epitech Berlín e hice mi año de intercambio junto con Niffi en Jönköping, Suecia. Soy el Backend-Lead del equipo, gestor de bases de datos y la persona de apoyo para el backend.", 
     "pt": "Sou um estudante do 4º ano da Epitech Berlin e fiz o meu ano de intercâmbio com a Niffi em Jönköping, Suécia. Sou o Backend-Lead da equipa, gestor da base de dados e o apoiante para o backend.", 
@@ -17,7 +17,7 @@
    },
    "Marcel": { 
      "de": "Ich bin ein Tek4-Student an der Epitech Berlin und absolviere derzeit mein Auslandsjahr in Großbritannien. Bei DynaFood arbeite ich hauptsächlich im Backend.", 
-     "en": "I am a Tek4 student at Epitech Berlin and I am currently doing my year abroad in the UK. At DynaFood I am mostly working in the backend.", 
+     "en": "I am a Fifth-year student pursuing my studies at Epitech Berlin, currently engaged in my international academic exchange program in the United Kingdom. Within DynaFood, my primary focus lies in backend development, where I actively contribute to the technical intricacies of the project.", 
      "fr": "Je suis étudiante en Tek4 à Epitech Berlin et je fais actuellement mon année à l'étranger au Royaume-Uni. Chez DynaFood, je travaille principalement dans le backend.", 
      "es": "Soy un estudiante de Tek4 en Epitech Berlín y actualmente estoy haciendo mi año en el extranjero en el Reino Unido. En DynaFood trabajo principalmente en el backend.", 
      "pt": "Sou estudante Tek4 na Epitech Berlin e estou atualmente a fazer o meu ano no estrangeiro no Reino Unido. Na DynaFood estou a trabalhar principalmente no backend.", 
@@ -25,7 +25,7 @@
    }, 
    "Niffi": { 
      "de": "Ich bin ein Tek4 Student der Epitech Berlin und habe meinen Austausch in Jönköping in Schweden gemacht. Ich bin die Frontend-Leiterin von DynaFood und kümmere mich um die Treffen und andere organisatorische Dinge.", 
-     "en": "I am a Tek4 Student of Epitech Berlin and did my exchange in Jönköping in Sweden. I am the Frontend-Lead of DynaFood and take care about the meetings and other organizational things.", 
+     "en": "I serve as the Frontend Lead at DynaFood, primarily focusing on the mobile application. Being lactose intolerant, I not only contribute as a developer but also actively use DynaFood. Currently in my fifth year at Epitech, my journey began in Berlin, emphasizing my commitment to continuous learning and professional growth.", 
      "fr": "Je suis étudiante Tek4 à Epitech Berlin et j'ai fait mon échange à Jönköping en Suède. Je suis le Frontend-Lead de DynaFood et je m'occupe des réunions et d'autres aspects organisationnels.", 
      "es": "Soy una estudiante de Tek4 de Epitech Berlin e hice mi intercambio en Jönköping en Suecia. Soy la Frontend-Lead de DynaFood y me encargo de las reuniones y otras cuestiones organizativas.", 
      "pt": "Sou um estudante Tek4 da Epitech Berlin e fiz o meu intercâmbio em Jönköping, na Suécia. Sou a Frontend-Lead da DynaFood e ocupo-me das reuniões e de outras questões organizacionais.", 
@@ -33,7 +33,7 @@
    }, 
    "Pol": { 
      "de": "Ich bin ein Tek4-Student an der Epitech Paris, derzeit in Berlin für mein Auslandsjahr. Ich arbeite an dem Backend-Teil des Projekts", 
-     "en": "I am a Tek4 student at Epitech Paris, currently in Berlin for my year abroad. I am working on the backend part of the project", 
+     "en": "I am a Tek5 student enrolled at Epitech Paris, presently undertaking my year abroad program in Berlin. Within the DynaFood project, my expertise revolves around backend development & the web, where I am dedicated to enhancing the technical aspects of the system", 
      "fr": "Je suis étudiant en Tek4 à Epitech Paris, actuellement à Berlin pour mon année à l'étranger. Je travaille sur la partie backend du projet.", 
      "es": "Soy un estudiante de Tek4 en Epitech París, actualmente en Berlín para mi año en el extranjero. Estoy trabajando en la parte backend del proyecto", 
      "pt": "Sou um estudante Tek4 na Epitech Paris, atualmente em Berlim para o meu ano no estrangeiro. Estou a trabalhar na parte backend do projeto", 
@@ -41,7 +41,7 @@
    },
    "Jurdyc": {
     "de": "Ich bin ein Tek 4 Schüler der Epitech Berlin. Mein Austauschjahr war in Daegu, Südkorea. Ich konzentriere mich auf Front-End, Styling und Testen für das Front-End.",
-    "en": "I am a Tek 4 Student of Epitech Berlin. My exchange year was in Daegu, South Korea. I am focusing on front-end, styling and testing for the front-end.",
+    "en": "I am a student at Epitech Berlin, having completed my exchange year in Daegu, South Korea. My primary focus within the DynaFood project lies in front-end development, encompassing styling and rigorous testing to ensure a seamless user experience.",
     "fr": "Je suis un étudiant de Tek 4 à Epitech Berlin. Mon année d'échange s'est déroulée à Daegu, en Corée du Sud. Je me concentre sur le front-end, le stylisme et les tests pour le front-end.",
     "es" : "Soy un estudiante Tek 4 de Epitech Berlín. Mi año de intercambio fue en Daegu, Corea del Sur. Me estoy centrando en front-end, styling y testing para el front-end.",
     "pt" : "Sou um estudante Tek 4 da Epitech Berlin. O meu ano de intercâmbio foi em Daegu, na Coreia do Sul. Estou a concentrar-me no front-end, no estilo e nos testes para o front-end.",

@@ -1,0 +1,107 @@
+/* Profil component CSS */
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.button-style {
+    width: 100px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.logout-button {
+    width: 150px;
+    background-color: #FF5733;
+    color: #FFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.select-box {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.allergies-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.allergies-list li {
+    margin-bottom: 10px;
+}
+
+/* Similar to Team component CSS */
+
+.profil .container {
+    width: 100%;
+    margin: auto;
+    padding: 4rem 0rem;
+}
+
+.profil h2 {
+    font-size: 3rem;
+    text-align: center;
+    color: #2E4D44;
+}
+
+.profil .container .content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin: 4rem 0;
+}
+
+.profil .card {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    text-align: center;
+}
+
+.profil img {
+    border-radius: 50%;
+    margin-top: -2rem;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.profil .card p {
+    color: #787878;
+    font-size: 1.1rem;
+    margin: 12px;
+}
+
+.profil .card span {
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 940px) {
+    .profil .container .content {
+        grid-template-columns: 1fr;
+    }
+
+    .profil .card {
+        max-width: 100%;
+        margin: 1rem;
+    }
+}

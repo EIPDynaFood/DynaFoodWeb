@@ -1,17 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import Footer from '../Footer';
 import { useHistory } from 'react-router-dom';
-import videoFile from '../../images/video-4.mp4';
 import axios from 'axios';
-import translate from './../../Translation/Profil.json'
-
+import translate from './../../Translation/Profil.json';
+import './Profil.css'
 
 function premiereLettreEnMajuscule(chaine) {
   return chaine.charAt(0).toUpperCase() + chaine.slice(1);
 }
 
 // Utilisez un état local pour suivre la couleur de fond actuelle des boutons
-function Profil() {
+const User = () => {
   // Utilisez un état local pour suivre la couleur de fond actuelle des boutons
   const [veganButtonColor, setVeganButtonColor] = useState();
   const [vegetarienButtonColor, setVegetarienButtonColor] = useState();
@@ -250,107 +249,72 @@ function Profil() {
     "Crustaceans",
   ];
 
-  // Styles CSS pour le conteneur
-  const containerStyle = {
-    display: "flex",
-    flexDirection: "column", // Mettre les éléments en colonne
-    alignItems: "center", // Centrer les éléments verticalement
-    gap: "20px", // Espace entre les éléments
-    textAlign: "center", // Centrer le texte
-  };
-
-  // Styles CSS pour les boutons
-  const buttonStyle = {
-    width: "150px", // Largeur fixe pour les boutons
-    padding: "10px 20px", // Ajustez les valeurs pour la taille du bouton
-    border: "none",
-    cursor: "pointer",
-  };
-
-  const videoStyles = {
-    position: 'absolute',
-    top: '50%',
-    left: '50%',
-    minWidth: '100%',
-    minHeight: '100%',
-    width: 'auto',
-    height: 'auto',
-    zIndex: -100,
-    transform: 'translateX(-50%) translateY(-50%)',
-    backgroundSize: 'cover',
-    opacity: 0.5
-  };
-
-  const logoutButtonStyle = {
-    width: "150px",
-    backgroundColor: "#FF5733", // Couleur de fond
-    color: "#FFF", // Couleur du texte
-    padding: "10px 20px", // Espacement interne
-    border: "none", // Supprime la bordure
-    borderRadius: "5px", // Coins arrondis
-    cursor: "pointer", // Curseur au survol
-    fontSize: "16px", // Taille du texte
-  };
-
   return (
     <>
-      <div style={containerStyle}>
-        <video style={videoStyles} autoPlay loop muted>
-          <source src={videoFile} type="video/mp4" />
-        </video> 
-        <h1>{translate["Profil"][localStorage.getItem("lang")]}</h1>
-        <div>
-          <button
-            style={{ ...buttonStyle, backgroundColor: veganButtonColor }}
-            onClick={() =>
-              changeButtonColorAndText(
-              )
-            }
-          >
-            {translate["Vegan"][localStorage.getItem("lang")]}
-          </button>
-          <div>{veganButtonText}</div>
-        </div>
-        <div>
-        <button
-            style={{ ...buttonStyle, backgroundColor: vegetarienButtonColor }}
-            onClick={() =>
-              changeButtonColorAndText2(
-              )
-            }
-          >
-            {translate["Vegetarian"][localStorage.getItem("lang")]}
-          </button>
-          <div>{vegetarienButtonText}</div>
-        </div>
-        <div style={{ marginBottom: "20px" }}>
-          <h2>{translate["Allergies"][localStorage.getItem("lang")]}</h2>
-          <select onChange={(e) => ajouterElement(e.target.value)}>
-            {elementsPredefinis.map((element) => (
-              <option key={element} value={element}>
-                {element}
-              </option>
-            ))}
-          </select>
-          <div style={{ marginTop: "10px" }}>{translate["YourAllergies"][localStorage.getItem("lang")]}</div>
-          <ul>
-            {elementsAjoutes.map((element, index) => (
-              <li key={index}>
-                {element}{" "}
-                <button onClick={() => supprimerElement(index)}>{translate["Delete"][localStorage.getItem("lang")]}</button>
-              </li>
-            ))}
-          </ul>
-        </div>
-        <button onClick={handleLogout} style={logoutButtonStyle}>
-        {translate["Logout"][localStorage.getItem("lang")]}
-        </button>
+    <div className='profil' id='profil'>
+      <div className='container'>
+        <div className='content'>
+          <div className='card'>
+              <h1>{translate["Profil"][localStorage.getItem("lang")]}</h1>
+              <button onClick={handleLogout} >
+              {translate["Logout"][localStorage.getItem("lang")]}
+              </button>
+            </div>
+            <div className='card'>
+              <button
+                style={{ backgroundColor: veganButtonColor }}
+                onClick={() =>
+                  changeButtonColorAndText(
+                  )
+                }
+              >
+                {translate["Vegan"][localStorage.getItem("lang")]}
+              </button>
+              <div>{veganButtonText}</div>
+              <button
+                  style={{ backgroundColor: vegetarienButtonColor }}
+                  onClick={() =>
+                    changeButtonColorAndText2(
+                    )
+                  }
+                >
+                  {translate["Vegetarian"][localStorage.getItem("lang")]}
+              </button>
+              <div>{vegetarienButtonText}</div>
+            </div>
+          <div className='card'>
+            <h1>{translate["Allergies"][localStorage.getItem("lang")]}</h1>
+            <select onChange={(e) => ajouterElement(e.target.value)}>
+              {elementsPredefinis.map((element) => (
+                <option key={element} value={element}>
+                  {element}
+                </option>
+              ))}
+            </select>
+          </div>
+          <div className='card'>{translate["YourAllergies"][localStorage.getItem("lang")]}
+            <ul>
+              {elementsAjoutes.map((element, index) => (
+                <li key={index}>
+                  {element}{" "}
+                  <button onClick={() => supprimerElement(index)}>{translate["Delete"][localStorage.getItem("lang")]}</button>
+                </li>
+              ))}
+            </ul>
+          </div>
       </div>
-      <Footer />
+      </div>
+      </div>
     </>
-    
   );
 }
 
-  
-  export default Profil;
+
+  export default function Profil() {
+    return (
+      <>
+        <User />
+        <Footer />
+      </>
+    )
+  }
