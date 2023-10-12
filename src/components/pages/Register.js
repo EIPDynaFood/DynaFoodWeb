@@ -69,6 +69,7 @@ function Register(props) {
   }
   return (
     <>
+      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
       <div className="registercontainer">
         <video className='registerVideo' src={video1} autoPlay loop muted />
         <div className="registerContent">
