@@ -4,6 +4,7 @@ import { useHistory } from 'react-router-dom';
 import axios from 'axios';
 import translate from './../../Translation/Profil.json';
 import './Profil.css'
+import avatar from '../../images/logo_frame.png'
 
 function premiereLettreEnMajuscule(chaine) {
   return chaine.charAt(0).toUpperCase() + chaine.slice(1);
@@ -211,9 +212,8 @@ const User = () => {
       })
       .catch(function (error) {
           alert(error);
-      });        
+      });
     }
-    
   };
 
   // Fonction pour supprimer un élément de la liste
@@ -251,59 +251,58 @@ const User = () => {
 
   return (
     <>
-    <div className='profil' id='profil'>
-      <div className='container'>
-        <div className='content'>
-          <div className='card'>
-              <h1>{translate["Profil"][localStorage.getItem("lang")]}</h1>
-              <button onClick={handleLogout} >
-              {translate["Logout"][localStorage.getItem("lang")]}
+      <div className='profil' id='profil'>
+        <div className='container'>
+          <h2>{translate['Profil'][localStorage.getItem('lang')]}</h2>
+          <span className='line'></span>
+          <div className='content'>
+            <div className='card'>
+              <img src={avatar} alt='Avatar' className='avatar-image' />
+              <button onClick={handleLogout}>
+                {translate['Logout'][localStorage.getItem('lang')]}
               </button>
             </div>
             <div className='card'>
               <button
                 style={{ backgroundColor: veganButtonColor }}
-                onClick={() =>
-                  changeButtonColorAndText(
-                  )
-                }
+                onClick={() => changeButtonColorAndText()}
               >
-                {translate["Vegan"][localStorage.getItem("lang")]}
+                {translate['Vegan'][localStorage.getItem('lang')]}
               </button>
               <div>{veganButtonText}</div>
               <button
-                  style={{ backgroundColor: vegetarienButtonColor }}
-                  onClick={() =>
-                    changeButtonColorAndText2(
-                    )
-                  }
-                >
-                  {translate["Vegetarian"][localStorage.getItem("lang")]}
+                style={{ backgroundColor: vegetarienButtonColor }}
+                onClick={() => changeButtonColorAndText2()}
+              >
+                {translate['Vegetarian'][localStorage.getItem('lang')]}
               </button>
               <div>{vegetarienButtonText}</div>
             </div>
-          <div className='card'>
-            <h1>{translate["Allergies"][localStorage.getItem("lang")]}</h1>
-            <select onChange={(e) => ajouterElement(e.target.value)}>
-              {elementsPredefinis.map((element) => (
-                <option key={element} value={element}>
-                  {element}
-                </option>
-              ))}
-            </select>
+            <div className='card'>
+              <h1>{translate['Allergies'][localStorage.getItem('lang')]}</h1>
+              <select onChange={(e) => ajouterElement(e.target.value)}>
+                {elementsPredefinis.map((element) => (
+                  <option key={element} value={element}>
+                    {element}
+                  </option>
+                ))}
+              </select>
+            </div>
+            <div className='card'>
+              {translate['YourAllergies'][localStorage.getItem('lang')]}
+              <ul>
+                {elementsAjoutes.map((element, index) => (
+                  <li key={index}>
+                    {element}{' '}
+                    <button onClick={() => supprimerElement(index)}>
+                      {translate['Delete'][localStorage.getItem('lang')]}
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
-          <div className='card'>{translate["YourAllergies"][localStorage.getItem("lang")]}
-            <ul>
-              {elementsAjoutes.map((element, index) => (
-                <li key={index}>
-                  {element}{" "}
-                  <button onClick={() => supprimerElement(index)}>{translate["Delete"][localStorage.getItem("lang")]}</button>
-                </li>
-              ))}
-            </ul>
-          </div>
-      </div>
-      </div>
+        </div>
       </div>
     </>
   );

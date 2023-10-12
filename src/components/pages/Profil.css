@@ -48,12 +48,24 @@
 }
 
 /* Similar to Team component CSS */
+.profil {
+    width: 100%;
+}
 
 .profil .container {
     width: 100%;
     margin: auto;
     padding: 4rem 0rem;
 }
+
+.avatar-image {
+    width: 100px; /* Set the width of the avatar image */
+    height: 100px; /* Set the height of the avatar image */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 50%; /* Make the image round */
+    margin-top: 10px; /* Adjust the margin as needed */
+  }
+  
 
 .profil h2 {
     font-size: 3rem;
