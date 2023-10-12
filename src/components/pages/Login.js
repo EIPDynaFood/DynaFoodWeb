@@ -42,6 +42,7 @@ function Login(props) {
   }
   return (
     <>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
       <div className="logincontainer">
         <video className='loginVideo' autoPlay loop muted>
           <source src={videoFile} type="video/mp4" />
