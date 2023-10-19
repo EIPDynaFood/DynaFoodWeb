@@ -52,7 +52,7 @@ const User = () => {
         console.log(data)
         var config = {
             method: 'patch',
-            url: 'http://x2024dynafood545437452001.westeurope.cloudapp.azure.com:8081/' + 'settings',
+            url: 'http://x2024dynafood545437452001.westeurope.cloudapp.azure.com:8081/' + 'settings/',
             data : data,
             headers: {
               Authorization: `Bearer `+ localStorage.getItem("token"),
@@ -94,7 +94,7 @@ const User = () => {
         });
         var config = {
             method: 'patch',
-            url: 'http://x2024dynafood545437452001.westeurope.cloudapp.azure.com:8081/' + 'settings',
+            url: 'http://x2024dynafood545437452001.westeurope.cloudapp.azure.com:8081/' + 'settings/',
             data : data,
             headers: {
               Authorization: `Bearer `+ localStorage.getItem("token"),
@@ -111,7 +111,7 @@ const User = () => {
   useEffect(() => {
     const config = {
         method: 'get',
-        url: 'http://x2024dynafood545437452001.westeurope.cloudapp.azure.com:8081/' + 'settings',
+        url: 'http://x2024dynafood545437452001.westeurope.cloudapp.azure.com:8081/' + 'settings/',
         headers: {
           Authorization: `Bearer `+ localStorage.getItem("token"),
         }
@@ -147,7 +147,7 @@ const User = () => {
                 throw(error);
             alert(error);
         });
-        axios.get('http://x2024dynafood545437452001.westeurope.cloudapp.azure.com:8081/' + "settings", {headers: {Authorization: `Bearer `+ localStorage.getItem("token")}})
+        axios.get('http://x2024dynafood545437452001.westeurope.cloudapp.azure.com:8081/' + "settings/", {headers: {Authorization: `Bearer `+ localStorage.getItem("token")}})
         .then(function (response) {
           const res = response.data;
       const newElements = [];
@@ -220,7 +220,7 @@ const User = () => {
   const supprimerElement = (index) => {
     const nouvelleListe = [...elementsAjoutes];
     const listValue = nouvelleListe[index].toLowerCase()
-    axios.delete('http://x2024dynafood545437452001.westeurope.cloudapp.azure.com:8081/' + "settings", {headers: {Authorization: `Bearer `+ localStorage.getItem("token")}, data: {'restrictionName': `${listValue}`}})
+    axios.delete('http://x2024dynafood545437452001.westeurope.cloudapp.azure.com:8081/' + "settings/", {headers: {Authorization: `Bearer `+ localStorage.getItem("token")}, data: {'restrictionName': `${listValue}`}})
     .then(function (response) {
       nouvelleListe.splice(index, 1);
       setElementsAjoutes(nouvelleListe);
