@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/DynaFoodWeb/static/css/main.850e665a.chunk.css",
-    "main.js": "/DynaFoodWeb/static/js/main.fcd24927.chunk.js",
-    "main.js.map": "/DynaFoodWeb/static/js/main.fcd24927.chunk.js.map",
+    "main.js": "/DynaFoodWeb/static/js/main.7ac67b24.chunk.js",
+    "main.js.map": "/DynaFoodWeb/static/js/main.7ac67b24.chunk.js.map",
     "runtime-main.js": "/DynaFoodWeb/static/js/runtime-main.c4f5c23a.js",
     "runtime-main.js.map": "/DynaFoodWeb/static/js/runtime-main.c4f5c23a.js.map",
     "static/css/2.ee96fe6c.chunk.css": "/DynaFoodWeb/static/css/2.ee96fe6c.chunk.css",
     "static/js/2.77af7ef5.chunk.js": "/DynaFoodWeb/static/js/2.77af7ef5.chunk.js",
     "static/js/2.77af7ef5.chunk.js.map": "/DynaFoodWeb/static/js/2.77af7ef5.chunk.js.map",
     "index.html": "/DynaFoodWeb/index.html",
-    "precache-manifest.52688b3dcd75739788afaa943936cd55.js": "/DynaFoodWeb/precache-manifest.52688b3dcd75739788afaa943936cd55.js",
+    "precache-manifest.4f1386555d94a23ef395d662b74ef420.js": "/DynaFoodWeb/precache-manifest.4f1386555d94a23ef395d662b74ef420.js",
     "service-worker.js": "/DynaFoodWeb/service-worker.js",
     "static/css/2.ee96fe6c.chunk.css.map": "/DynaFoodWeb/static/css/2.ee96fe6c.chunk.css.map",
     "static/css/main.850e665a.chunk.css.map": "/DynaFoodWeb/static/css/main.850e665a.chunk.css.map",
@@ -41,6 +41,6 @@
     "static/css/2.ee96fe6c.chunk.css",
     "static/js/2.77af7ef5.chunk.js",
     "static/css/main.850e665a.chunk.css",
-    "static/js/main.fcd24927.chunk.js"
+    "static/js/main.7ac67b24.chunk.js"
   ]
 }
