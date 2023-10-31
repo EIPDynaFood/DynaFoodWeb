@@ -51,7 +51,7 @@ function Register(props) {
             });
             var config = {
                 method: 'post',
-                url: 'http://x2024dynafood545437452001.westeurope.cloudapp.azure.com:8081/' + 'signup',
+                url: 'http://x2024dynafood545437452001.westeurope.cloudapp.azure.com:8081/' + 'signup'+ "/",
                 headers: {
                     'Content-Type': 'application/x-www-form-urlencoded',
                 },

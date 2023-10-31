@@ -23,7 +23,7 @@ function Login(props) {
   const handleSubmit = (e) => {
   const config = {
     method: 'get',
-    url:  'http://x2024dynafood545437452001.westeurope.cloudapp.azure.com:8081/' + 'login?email=' + `${email}` + '&password=' + `${password}`,
+    url:  'http://x2024dynafood545437452001.westeurope.cloudapp.azure.com:8081/' + 'login?email=' + `${email}` + '&password=' + `${password}` + "/",
     rejectUnauthorized: false,
 };
   console.log(email)
