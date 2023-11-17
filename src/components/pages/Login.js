@@ -23,7 +23,7 @@ function Login(props) {
   const handleSubmit = (e) => {
   const config = {
     method: 'get',
-    url:  'http://x2024dynafood545437452001.westeurope.cloudapp.azure.com:8081/' + 'login?email=' + `${email}` + '&password=' + `${password}` + "/",
+    url:  'http://x2024dynafood545437452001.westeurope.cloudapp.azure.com:8081/' + 'login?email=' + `${email}` + '&password=' + `${password}`,
     rejectUnauthorized: false,
 };
   console.log(email)
@@ -67,12 +67,10 @@ function Login(props) {
             value={password}
             onChange={handlePasswordChange}
           />
+          <a href="/sendEmail" className="reset-password-link">forgotten password?</a>
           <button className="loginprimaryButtonStyle" onClick={handleSubmit}>{translate["Login"][localStorage.getItem("lang")]}</button>
           <Link to='/register'>
             <button className="loginsecondaryButtonStyle">{translate["Register"][localStorage.getItem("lang")]}</button>
-          </Link>
-          <Link to='/sendEmail'>
-            <button className="loginsecondaryButtonStyle">Reset Password</button>
           </Link>
         </div>
       </div>

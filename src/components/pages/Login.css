@@ -42,27 +42,42 @@
   border-radius: 4px;
 }
 
-.loginprimaryButtonStyle {
-  padding: 10px 20px;
-  background-color: #2E4D44;
-  color: white;
-  border: none;
+.loginprimaryButtonStyle,
+.loginsecondaryButtonStyle {
+  width: 150px;
+  padding: 10px 0;
+  text-align: center;
   border-radius: 4px;
   cursor: pointer;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   margin-top: 10px;
 }
 
+.loginprimaryButtonStyle {
+  background-color: #2E4D44;
+  color: white;
+  border: none;
+}
+
 .loginsecondaryButtonStyle {
-  padding: 10px 20px;
   background-color: white;
   color: #2E4D44;
   border: 1px solid #2E4D44;
-  border-radius: 4px;
-  cursor: pointer;
 }
 
 .loginsecondaryButtonStyle:hover {
   background-color: #2E4D44;
   color: white;
 }
+
+.reset-password-link {
+  color: black;
+  text-decoration: none;
+  margin-top: -10px;
+  margin-left: 140px;
+}
+
+.reset-password-link:hover {
+  text-decoration: underline;
+}
+

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/DynaFoodWeb/precache-manifest.d7d5db45ed5be1b07f10187c2c85e1dd.js"
+  "/DynaFoodWeb/precache-manifest.4f1386555d94a23ef395d662b74ef420.js"
 );
 
 self.addEventListener('message', (event) => {

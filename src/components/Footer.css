@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex: 1;
 }
 
 .footer-subscription {
@@ -164,4 +165,24 @@
 }
 
 @media screen and (max-width: 768px) {
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.footer-bottom {
+  background-color: #2E4D44;
+  padding: 1rem 0;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
 }

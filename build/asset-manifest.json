@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/DynaFoodWeb/static/css/main.665acfe0.chunk.css",
-    "main.js": "/DynaFoodWeb/static/js/main.e220bd73.chunk.js",
-    "main.js.map": "/DynaFoodWeb/static/js/main.e220bd73.chunk.js.map",
+    "main.css": "/DynaFoodWeb/static/css/main.850e665a.chunk.css",
+    "main.js": "/DynaFoodWeb/static/js/main.7ac67b24.chunk.js",
+    "main.js.map": "/DynaFoodWeb/static/js/main.7ac67b24.chunk.js.map",
     "runtime-main.js": "/DynaFoodWeb/static/js/runtime-main.c4f5c23a.js",
     "runtime-main.js.map": "/DynaFoodWeb/static/js/runtime-main.c4f5c23a.js.map",
     "static/css/2.ee96fe6c.chunk.css": "/DynaFoodWeb/static/css/2.ee96fe6c.chunk.css",
-    "static/js/2.27ac242b.chunk.js": "/DynaFoodWeb/static/js/2.27ac242b.chunk.js",
-    "static/js/2.27ac242b.chunk.js.map": "/DynaFoodWeb/static/js/2.27ac242b.chunk.js.map",
+    "static/js/2.77af7ef5.chunk.js": "/DynaFoodWeb/static/js/2.77af7ef5.chunk.js",
+    "static/js/2.77af7ef5.chunk.js.map": "/DynaFoodWeb/static/js/2.77af7ef5.chunk.js.map",
     "index.html": "/DynaFoodWeb/index.html",
-    "precache-manifest.d7d5db45ed5be1b07f10187c2c85e1dd.js": "/DynaFoodWeb/precache-manifest.d7d5db45ed5be1b07f10187c2c85e1dd.js",
+    "precache-manifest.4f1386555d94a23ef395d662b74ef420.js": "/DynaFoodWeb/precache-manifest.4f1386555d94a23ef395d662b74ef420.js",
     "service-worker.js": "/DynaFoodWeb/service-worker.js",
     "static/css/2.ee96fe6c.chunk.css.map": "/DynaFoodWeb/static/css/2.ee96fe6c.chunk.css.map",
-    "static/css/main.665acfe0.chunk.css.map": "/DynaFoodWeb/static/css/main.665acfe0.chunk.css.map",
-    "static/js/2.27ac242b.chunk.js.LICENSE.txt": "/DynaFoodWeb/static/js/2.27ac242b.chunk.js.LICENSE.txt",
+    "static/css/main.850e665a.chunk.css.map": "/DynaFoodWeb/static/css/main.850e665a.chunk.css.map",
+    "static/js/2.77af7ef5.chunk.js.LICENSE.txt": "/DynaFoodWeb/static/js/2.77af7ef5.chunk.js.LICENSE.txt",
     "static/media/alert.png": "/DynaFoodWeb/static/media/alert.3eaf54a5.png",
     "static/media/history.png": "/DynaFoodWeb/static/media/history.9f4a135f.png",
     "static/media/information.png": "/DynaFoodWeb/static/media/information.746b33c2.png",
@@ -39,8 +39,8 @@
   "entrypoints": [
     "static/js/runtime-main.c4f5c23a.js",
     "static/css/2.ee96fe6c.chunk.css",
-    "static/js/2.27ac242b.chunk.js",
-    "static/css/main.665acfe0.chunk.css",
-    "static/js/main.e220bd73.chunk.js"
+    "static/js/2.77af7ef5.chunk.js",
+    "static/css/main.850e665a.chunk.css",
+    "static/js/main.7ac67b24.chunk.js"
   ]
 }

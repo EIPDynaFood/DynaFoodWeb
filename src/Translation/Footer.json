@@ -15,13 +15,13 @@
     "pt": "Como funciona", 
     "it": "Come funziona"  
    },
-   "Testimonials": { 
-     "de": "Testimonials", 
-     "en": "Testimonials", 
-     "fr": "Témoignages", 
-     "es": "Testimonios", 
-     "pt": "Testemunhos", 
-     "it": "Testimonianze" 
+   "Team": { 
+     "de": "Team", 
+     "en": "Team", 
+     "fr": "Team", 
+     "es": "Team", 
+     "pt": "Team", 
+     "it": "Team" 
    },
    "Service": { 
     "de": "Bedingungen der Dienstleistung", 
@@ -55,13 +55,13 @@
     "pt": "Redes sociais", 
     "it": "Media sociali"  
    },
-   "Instagram": { 
-     "de": "Instagram", 
-     "en": "Instagram", 
-     "fr": "Instagram", 
-     "es": "Instagram", 
-     "pt": "Instagram", 
-     "it": "Instagram" 
+   "Linkedin": { 
+     "de": "Linkedin", 
+     "en": "Linkedin", 
+     "fr": "Linkedin", 
+     "es": "Linkedin", 
+     "pt": "Linkedin", 
+     "it": "Linkedin" 
    },
    "Facebook": { 
     "de": "Facebook", 

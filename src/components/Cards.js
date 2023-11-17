@@ -1,9 +1,9 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
-import img1 from '../images/information.png';
-import img2 from '../images/scanner.png';
-import img3 from '../images/settings.png';
+import img1 from '../images/newimg2.png';
+import img2 from '../images/newimg1.jpg';
+import img3 from '../images/newimg4.png';
 import img4 from '../images/alert.png';
 import img5 from '../images/detail.png';
 import img6 from '../images/history.png';
@@ -38,6 +38,15 @@ function Cards() {
               path='/services'
             />
           </ul>
+        </div>
+      </div>
+    </div>
+);
+}
+
+export default Cards;
+
+/*
           <ul className='cards__items'>
             <CardItem
               src={img4}
@@ -69,11 +78,4 @@ function Cards() {
                 label='product'
                 path='/services'
               />
-            </ul>
-        </div>
-      </div>
-    </div>
-);
-}
-
-export default Cards;
+            </ul>*/
