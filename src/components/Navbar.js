@@ -3,7 +3,7 @@ import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import Select from 'react-select';
-import img1 from '../images/logo_frame_invisible.png';
+import img1 from '../images/logo_frame_new.png';
 import enFlag from '../images/us.png';
 import frFlag from '../images/fr.png';
 import deFlag from '../images/de.png';

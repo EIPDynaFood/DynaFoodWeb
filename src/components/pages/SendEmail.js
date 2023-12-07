@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Footer from '../Footer';
-import './Login.css';
+import './SendEmail.css';
 import { Link, useHistory } from 'react-router-dom';
 import videoFile from '../../images/video-4.mp4';
 import axios from 'axios';
@@ -33,25 +33,26 @@ function SendEmail(props) {
   }
   return (
     <>
-      <div className="logincontainer">
-        <video className='loginVideo' autoPlay loop muted>
-          <source src={videoFile} type="video/mp4" />
-        </video>
-        <div className="loginContent">
-          <img src={require('../../images/logo_frame.png')} alt="Logo" className="loginlogo" />
-          <input
-            placeholder="Email"
-            className="logininput"
-            type="email"
-            id="email"
-            name="email"
-            value={email}
-            onChange={handleEmailChange}
-          />
-          <button className="loginprimaryButtonStyle" onClick={handleSubmit}>Reset Password</button>
-          <Link to='/login'>
-            <button className="loginsecondaryButtonStyle">Back To login Page</button>
-          </Link>
+      <div className='sendemail' id='sendemail'>
+        <div className="container">
+          <h2>Forgot Password ?</h2>
+          <span className='line'></span>
+            <div className='content'>
+              <h1>Please enter the email you register with</h1>
+              <input
+                placeholder="Email"
+                className="logininput"
+                type="email"
+                id="email"
+                name="email"
+                value={email}
+                onChange={handleEmailChange}
+              />
+              <button className="loginprimaryButtonStyle" onClick={handleSubmit}>Reset Password</button>
+              <Link to='/login'>
+                <button className="loginsecondaryButtonStyle">Back To login Page</button>
+              </Link>
+            </div>
         </div>
       </div>
       <Footer />

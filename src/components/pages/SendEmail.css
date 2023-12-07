@@ -1,0 +1,71 @@
+.sendemail {
+    width: 100%;
+}
+
+.sendemail .container {
+    width: 1240px;
+    margin: auto;
+    padding: 4rem 0rem;
+}
+
+.sendemail h2 {
+    font-size: 3rem;
+    text-align: center;
+    color: #2E4D44;
+}
+
+.sendemail h1 {
+  font-size: 1rem;
+  text-align: center;
+  color: #2E4D44;
+}
+
+.sendemail .container .content {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+  align-items: center;
+  grid-gap: 5px;
+  margin: 4rem auto;
+  text-align: center;
+}
+
+.sendemail .card {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgb(0,0,0,.2);
+    padding: 1rem;
+}
+
+.sendemail img {
+    border-radius: 50px;
+    margin-top: -2rem;
+}
+
+
+.sendemail .card p {
+    color: #787878;
+    font-size: 1.1rem;
+    margin: 12px;
+}
+
+.sendemail .card span {
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 940px) {
+    .sendemail .container {
+        width: 100%;
+    }
+
+    .sendemail .container .content {
+        grid-template-columns: 1fr;
+    }
+
+    .sendemail .card {
+        max-width: 100%;
+        margin: 1rem;
+    }
+}

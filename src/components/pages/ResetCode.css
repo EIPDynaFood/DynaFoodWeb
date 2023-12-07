@@ -1,0 +1,63 @@
+.resetcode {
+    width: 100%;
+}
+
+.resetcode .container {
+    width: 1240px;
+    margin: auto;
+    padding: 4rem 0rem;
+}
+
+.resetcode h2, .resetcode h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: #2E4D44;
+}
+
+.resetcode h1 {
+    font-size: 1.5rem;
+}
+
+.resetcode .container .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+
+.resetcode input,
+.resetcode button {
+    width: 80%;
+    max-width: 400px;
+    margin: 10px 0;
+}
+
+.resetcode button {
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #2E4D44;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.resetcode button:hover {
+    background-color: darken(#2E4D44, 10%);
+}
+
+@media screen and (max-width: 940px) {
+    .resetcode .container {
+        width: 100%;
+        padding: 4rem 2rem;
+    }
+
+    .resetcode h2 {
+        font-size: 2.5rem;
+    }
+
+    .resetcode h1 {
+        font-size: 1.2rem;
+    }
+}
