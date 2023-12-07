@@ -18,7 +18,10 @@ function Navbar() {
   const storedToken = localStorage.getItem('token');
   const storedLang = localStorage.getItem('lang');
   const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
+  const closeMobileMenu = () => {
+    setClick(false)
+    window.scrollTo(0, 0);
+  };
 
   const showButton = () => {
     if (window.innerWidth <= 960) {
