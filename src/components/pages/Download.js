@@ -27,16 +27,6 @@ const Download = () => {
           <span className='line'></span>
           <div className='content'>
             <div className='card'>
-              <i className="fab fa-apple"></i>
-              <p><span>iOS</span></p>
-              <Button
-                className={`download-button ${selectedPlatform === 'ios' ? 'selected' : ''}`}
-                onClick={() => handleDownload('ios')}
-              >
-                Download Now
-              </Button>
-            </div>
-            <div className='card'>
               <i className="fab fa-android"></i>
               <p><span>Android</span></p>
               <Button
@@ -55,3 +45,14 @@ const Download = () => {
 }
 
 export default Download;
+
+/*            <div className='card'>
+              <i className="fab fa-apple"></i>
+              <p><span>iOS</span></p>
+              <Button
+                className={`download-button ${selectedPlatform === 'ios' ? 'selected' : ''}`}
+                onClick={() => handleDownload('ios')}
+              >
+                Download Now
+              </Button>
+            </div>*/
