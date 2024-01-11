@@ -42,8 +42,8 @@ function Register(props) {
   }
     var qs = require('qs');
             var data = qs.stringify({
-                'firstName': `${firstname}`,
-                'lastName': `${lastname}`,
+                'firstName': `niffi`,
+                'lastName': `chiwawa`,
                 'userName': `${userName}`,
                 'email': `${email}`,
                 'phoneNumber': `${phoneNumber}`,
@@ -74,24 +74,6 @@ function Register(props) {
         <video className='registerVideo' src={video1} autoPlay loop muted />
         <div className="registerContent">
           <img src={require('../../images/logo_frame.png')} alt="Logo" className="registerlogo" />
-          <input
-            placeholder={translate["FirstName"][localStorage.getItem("lang")]}
-            className="registerinput"
-            type="text"
-            id="firstname"
-            name="firstname"
-            value={firstname}
-            onChange={handleFirstnameChange}
-          />
-          <input
-            placeholder={translate["LastName"][localStorage.getItem("lang")]}
-            className="registerinput"
-            type="text"
-            id="lastname"
-            name="lastname"
-            value={lastname}
-            onChange={handleLastnameChange}
-          />
           <input
             placeholder={translate["Email"][localStorage.getItem("lang")]}
             className="registerinput"
@@ -129,3 +111,23 @@ function Register(props) {
 }
 
 export default Register;
+
+
+/*          <input
+            placeholder={translate["FirstName"][localStorage.getItem("lang")]}
+            className="registerinput"
+            type="text"
+            id="firstname"
+            name="firstname"
+            value={firstname}
+            onChange={handleFirstnameChange}
+          />
+          <input
+            placeholder={translate["LastName"][localStorage.getItem("lang")]}
+            className="registerinput"
+            type="text"
+            id="lastname"
+            name="lastname"
+            value={lastname}
+            onChange={handleLastnameChange}
+          />*/
