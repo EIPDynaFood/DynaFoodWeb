@@ -35,8 +35,8 @@ function ResetPassword(props) {
   console.log(password)
   var qs = require('qs');
   var data = qs.stringify({
-      'email': `${mail}`,
-      'code': `${code}`,
+      'email': localStorage.getItem('email'),
+      'code': localStorage.getItem('code'),
       'password': `${password}`
   });
   console.log(data)
@@ -63,24 +63,6 @@ function ResetPassword(props) {
           <span className='line'></span>
             <div className='content'>
               <h1>Please enter your new password</h1>
-              <input
-                placeholder="Mail"
-                className="logininput"
-                type="email"
-                id="email"
-                name="email"
-                value={mail}
-                onChange={handleMailChange}
-              />
-              <input
-                placeholder="Code"
-                className="logininput"
-                type="text"
-                id="code"
-                name="code"
-                value={code}
-                onChange={handleCodeChange}
-              />
               <input
                 placeholder="Password"
                 className="logininput"

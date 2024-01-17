@@ -22,7 +22,7 @@ function ResetCode(props) {
   const handleSubmit = (e) => {
   var qs = require('qs');
   var data = qs.stringify({
-      'email': `${mail}`,
+      'email': localStorage.getItem('email'),
       'code': `${code}`,
   });
   var config = {
@@ -33,6 +33,7 @@ function ResetCode(props) {
   axios(config)
     .then(function (response) {
       console.log(response.status)
+      localStorage.setItem('code', code)
       history.push('/resetPassword');
       window.location.reload();
     })
@@ -48,15 +49,6 @@ function ResetCode(props) {
           <span className='line'></span>
             <div className='content'>
               <h1>if your email exist than you received a code, please write it down</h1>
-              <input
-                placeholder="Mail"
-                className="logininput"
-                type="email"
-                id="email"
-                name="email"
-                value={mail}
-                onChange={handleMailChange}
-              />
               <input
                 placeholder="Code"
                 className="logininput"

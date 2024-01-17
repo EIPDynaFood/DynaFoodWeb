@@ -24,6 +24,7 @@ function SendEmail(props) {
 };
   axios(config)
     .then(function (response) {
+      localStorage.setItem('email', email)
       history.push('/resetCode',{email});
       window.location.reload();
     })
