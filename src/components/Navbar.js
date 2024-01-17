@@ -16,7 +16,7 @@ import translate from './../Translation/Navbar.json'
 function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
-  const storedToken = localStorage.getItem('token');
+  const storedToken = localStorage.getItem('refresh_token');
   const storedLang = localStorage.getItem('lang');
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => {

@@ -5,6 +5,7 @@ import axios from 'axios';
 import translate from './../../Translation/Profil.json';
 import './Profil.css'
 import avatar from '../../images/logo_frame.png'
+import APIRoute from '../refreshToken';
 
 function premiereLettreEnMajuscule(chaine) {
   return chaine.charAt(0).toUpperCase() + chaine.slice(1);
@@ -59,11 +60,11 @@ const User = () => {
               Authorization: `Bearer `+ localStorage.getItem("token"),
             }
         };
-        axios(config)
+        APIRoute(() => axios(config)
         .then().catch((err) => {
             if (err.response.status === 401)
                 throw(err)
-        })
+        }))
 
   };
   
@@ -101,11 +102,11 @@ const User = () => {
               Authorization: `Bearer `+ localStorage.getItem("token"),
             }
         };
-        axios(config)
+        APIRoute(() => axios(config)
         .then().catch((err) => {
             if (err.response.status === 401)
                 throw(err)
-        })
+        }))
   };
 
 
@@ -117,7 +118,7 @@ const User = () => {
           Authorization: `Bearer `+ localStorage.getItem("token"),
         }
     };
-    axios(config)
+    APIRoute(() => axios(config)
         .then(function (response) {
           console.log(response.data)
           const valueVeg = parseInt(response.data[0].strongness)
@@ -147,8 +148,8 @@ const User = () => {
             if (error.response.status === 401)
                 throw(error);
             alert(error);
-        });
-        axios.get('http://x2024dynafood545437452001.westeurope.cloudapp.azure.com:8081/' + "settings/", {headers: {Authorization: `Bearer `+ localStorage.getItem("token")}})
+        }));
+        APIRoute(() => axios.get('http://x2024dynafood545437452001.westeurope.cloudapp.azure.com:8081/' + "settings/", {headers: {Authorization: `Bearer `+ localStorage.getItem("token")}})
         .then(function (response) {
           const res = response.data;
       const newElements = [];
@@ -166,7 +167,7 @@ const User = () => {
           if (error.response.status === 401)
               throw(error);
           alert(error);
-      });
+      }));
 }, []);
   const handleLogout = () => {
     // Effectuez ici toute logique de déconnexion, par exemple, déconnexion depuis votre backend, suppression de jetons, etc.
@@ -206,13 +207,13 @@ const User = () => {
           Authorization: `Bearer `+ localStorage.getItem("token"),
           }
         };
-        axios(config).then(function (response) {
+        APIRoute(() => axios(config).then(function (response) {
           const nouvelleListe = [...elementsAjoutes, element];
           setElementsAjoutes(nouvelleListe);
       })
       .catch(function (error) {
           alert(error);
-      });
+      }));
     }
   };
 
@@ -220,7 +221,7 @@ const User = () => {
   const supprimerElement = (index) => {
     const nouvelleListe = [...elementsAjoutes];
     const listValue = nouvelleListe[index].toLowerCase()
-    axios.delete('http://x2024dynafood545437452001.westeurope.cloudapp.azure.com:8081/' + "settings/", {headers: {Authorization: `Bearer `+ localStorage.getItem("token")}, data: {'restrictionName': `${listValue}`}})
+    APIRoute(() => axios.delete('http://x2024dynafood545437452001.westeurope.cloudapp.azure.com:8081/' + "settings/", {headers: {Authorization: `Bearer `+ localStorage.getItem("token")}, data: {'restrictionName': `${listValue}`}})
     .then(function (response) {
       nouvelleListe.splice(index, 1);
       setElementsAjoutes(nouvelleListe);
@@ -229,7 +230,7 @@ const User = () => {
       if (error.response.status === 401)
           throw(error)
       console.log(error);
-  });
+  }));
   };
 
   // Liste prédéfinie d'éléments
