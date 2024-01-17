@@ -5,7 +5,8 @@
     "fr": "Comment c'est devenu un projet", 
     "es": "Cómo se convirtió en proyecto", 
     "pt": "Como se tornou um projeto", 
-    "it": "Come è diventato un progetto" 
+    "it": "Come è diventato un progetto",
+    "ne": "Hoe het een project werd" 
    }, 
    "Text1": { 
     "de": "DynaFood ist eine mobile Anwendung, mit der die Nutzer die Umweltauswirkungen und den Nährwert ihrer Lebensmittel verfolgen und bewerten können. Die Anwendung kann auf der Grundlage der Wünsche und Ernährungspräferenzen des Nutzers konfiguriert werden, was jedem hilft, die Produkte zu finden, die zu seinem Lebensstil passen. Nach einem \"Moonshot\" bei Tek3 haben wir festgestellt, dass die meisten Menschen Schwierigkeiten haben, den Überblick über ihre Lebensmittel und Kalorien zu behalten, und wir haben beschlossen, eine Anwendung zu entwickeln, die von Allergenen bis hin zu Lieblingsprodukten alles erfasst, und zwar in jeder Sprache.", 
@@ -13,7 +14,8 @@
     "fr": "DynaFood est une application mobile qui permet aux utilisateurs de suivre et d'évaluer l'impact environnemental et la valeur nutritionnelle de leurs courses. L'application peut être configurée en fonction des souhaits et des préférences alimentaires de l'utilisateur, ce qui aidera chacun à trouver les produits qui correspondent à son mode de vie. Après avoir fait un moonshot à notre Tek3, nous avons découvert que la plupart des gens ont du mal à suivre ce qu'ils mangent, les calories et vice versa, et nous avons décidé de créer cette application pour suivre tout, des allergènes aux favoris, dans n'importe quelle langue.", 
     "es": "DynaFood es una aplicación móvil que permite a los usuarios hacer un seguimiento y evaluar el impacto ambiental y el valor nutricional de sus alimentos. La aplicación puede configurarse en función de los deseos y preferencias dietéticas del usuario, lo que ayudará a todo el mundo a encontrar los productos que se ajusten a su estilo de vida. Después de hacer un moonshot en nuestro Tek3, descubrimos que a la mayoría de la gente le cuesta hacer un seguimiento de lo que come, de las calorías y viceversa, y decidimos hacer esta aplicación para hacer un seguimiento de todo, desde los alérgenos hasta los favoritos, en cualquier idioma.", 
     "pt": "DynaFood é uma aplicação móvel que permite aos utilizadores acompanhar e avaliar o impacto ambiental e o valor nutricional das suas compras. A aplicação pode ser configurada com base nos desejos e preferências alimentares do utilizador, o que ajudará toda a gente a encontrar os produtos que correspondem ao seu estilo de vida. Depois de fazermos um moonshot no nosso Tek3, descobrimos que a maioria das pessoas tem dificuldade em controlar o que come, as calorias e vice-versa, e decidimos criar esta aplicação para controlar tudo, desde os alergénios aos favoritos, em qualquer língua.", 
-    "it": "DynaFood è un'applicazione mobile che consente agli utenti di monitorare e valutare l'impatto ambientale e il valore nutrizionale dei loro prodotti alimentari. L'applicazione può essere configurata in base ai desideri e alle preferenze alimentari dell'utente, che potrà così trovare i prodotti più adatti al proprio stile di vita. Dopo aver fatto un moonshot al nostro Tek3, abbiamo scoperto che la maggior parte delle persone fatica a tenere traccia di ciò che mangia, delle calorie e viceversa, e abbiamo deciso di realizzare questa applicazione per tenere traccia di tutto, dagli allergeni alle preferenze, in qualsiasi lingua."  
+    "it": "DynaFood è un'applicazione mobile che consente agli utenti di monitorare e valutare l'impatto ambientale e il valore nutrizionale dei loro prodotti alimentari. L'applicazione può essere configurata in base ai desideri e alle preferenze alimentari dell'utente, che potrà così trovare i prodotti più adatti al proprio stile di vita. Dopo aver fatto un moonshot al nostro Tek3, abbiamo scoperto che la maggior parte delle persone fatica a tenere traccia di ciò che mangia, delle calorie e viceversa, e abbiamo deciso di realizzare questa applicazione per tenere traccia di tutto, dagli allergeni alle preferenze, in qualsiasi lingua.",
+    "ne": "DynaFood is een geavanceerde mobiele applicatie die is ontworpen om gebruikers in staat te stellen de ecologische voetafdruk en de voedingssamenstelling van hun boodschappen nauwgezet te monitoren en te beoordelen. Afgestemd op individuele voorkeuren en dieetwensen, faciliteert de applicatie een naadloze afstemming tussen de levensstijlkeuzes van gebruikers en de beschikbare producten. Na een visionair initiatief bij onze Tek3, waar we de wijdverbreide uitdaging van het bijhouden van voedingsgegevens en calorie-inname onderkenden, zijn we begonnen met de ontwikkeling van deze uitgebreide toepassing. Hiermee kunnen gebruikers een breed scala aan factoren monitoren, van allergenen tot favoriete items, allemaal gepresenteerd in meerdere talen."
    },
    "Phase1": { 
      "de": "Phase 1: Die Idee (Nov. 2021)", 
@@ -21,7 +23,8 @@
      "fr": "Phase 1 : L'idée (novembre 2021)", 
      "es": "Fase 1: La idea (nov. 2021)", 
      "pt": "Fase 1: A ideia (Nov. 2021)", 
-     "it": "Fase 1: l'idea (novembre 2021)" 
+     "it": "Fase 1: l'idea (novembre 2021)",
+     "ne": "Fase 1: Het idee (nov. 2021)"
    },
    "Titre2": { 
     "de": "Unsere Reise durch Figma & Moonshot", 
@@ -29,7 +32,8 @@
     "fr": "Notre voyage à travers Figma et Moonshot", 
     "es": "Nuestro viaje a través de Figma y Moonshot", 
     "pt": "A nossa viagem através do Figma e do Moonshot", 
-    "it": "Il nostro viaggio attraverso Figma e Moonshot" 
+    "it": "Il nostro viaggio attraverso Figma e Moonshot" ,
+    "ne": "Onze reis door Figma en Moonshot"
    }, 
    "Text2": { 
     "de": "Die Figma-Phase war ziemlich knifflig, da wir vorher keine Erfahrung mit UI/UX hatten. Glücklicherweise bekamen wir Hilfe von Profis bei der Gestaltung unserer Anwendung und aller Seiten. Mit diesem Wissen haben wir unsere Reise auf Expo und React Native implementiert und von dort aus weitere Funktionen hinzugefügt, um unser Traumziel zu erreichen.", 
@@ -37,7 +41,8 @@
     "fr": "La phase Figma a été assez délicate, car nous n'avions aucune expérience de l'UI/UX avant cela. Nous avons heureusement reçu l'aide d'un professionnel pour la conception de notre application et de toutes les pages, en utilisant ces connaissances, nous avons implémenté notre voyage sur expo, react native et à partir de là, nous avons ajouté d'autres fonctionnalités pour essayer d'atteindre notre objectif de rêve.", 
     "es": "La fase de Figma fue bastante complicada, ya que no teníamos experiencia con ningún UI/UX antes de esto. Tuvimos la suerte de contar con la ayuda de profesionales en el diseño de nuestra aplicación y todas las páginas, utilizando ese conocimiento implementamos nuestro viaje en expo, react native y desde allí añadimos más características para tratar de alcanzar nuestro objetivo soñado.", 
     "pt": "A fase Figma foi bastante complicada, uma vez que não tínhamos experiência com qualquer UI/UX antes disto. Felizmente tivemos a ajuda de um profissional para desenhar a nossa aplicação e todas as páginas, usando esse conhecimento implementámos a nossa jornada em expo, react native e a partir daí adicionámos mais funcionalidades para tentar alcançar o nosso objetivo de sonho.", 
-    "it": "La fase di Figma è stata piuttosto complicata, poiché non avevamo alcuna esperienza di UI/UX prima di questa. Fortunatamente abbiamo ricevuto l'aiuto di un professionista per la progettazione della nostra applicazione e di tutte le pagine, e grazie a questa conoscenza abbiamo implementato il nostro viaggio su expo, react native e da lì abbiamo aggiunto altre funzionalità per cercare di raggiungere il nostro obiettivo."  
+    "it": "La fase di Figma è stata piuttosto complicata, poiché non avevamo alcuna esperienza di UI/UX prima di questa. Fortunatamente abbiamo ricevuto l'aiuto di un professionista per la progettazione della nostra applicazione e di tutte le pagine, e grazie a questa conoscenza abbiamo implementato il nostro viaggio su expo, react native e da lì abbiamo aggiunto altre funzionalità per cercare di raggiungere il nostro obiettivo."  ,
+    "ne": "De Figma-fase bracht aanzienlijke uitdagingen met zich mee, gezien ons gebrek aan eerdere ervaring met UI/UX-ontwerp. Gelukkig hebben we, met de hulp van doorgewinterde professionals, onze applicatie en de bijbehorende pagina's zorgvuldig samengesteld. Gewapend met deze kennis hebben we onze visie naadloos geïntegreerd in de Expo- en React Native-platforms. Vervolgens hebben we onze inspanningen uitgebreid en extra functies toegevoegd om onze ambitieuze doelen te bereiken."
    },
    "Phase2": { 
      "de": "Phase 2: Erste technische Umsetzung (Dez. 2021)", 
@@ -45,7 +50,8 @@
      "fr": "Phase 2 : Première mise en œuvre technique (décembre 2021)", 
      "es": "Fase 2: Primera aplicación técnica (diciembre de 2021)", 
      "pt": "Fase 2: Primeira execução técnica (dezembro de 2021)", 
-     "it": "Fase 2: Prima implementazione tecnica (dicembre 2021)" 
+     "it": "Fase 2: Prima implementazione tecnica (dicembre 2021)" ,
+     "ne": "Fase 2: Eerste technische implementatie (dec. 2021)"
    },
    "Titre3": { 
     "de": "Unser erster Versuch auf App", 
@@ -53,7 +59,8 @@
     "fr": "Notre premier essai sur l'App", 
     "es": "Nuestro primer intento en App", 
     "pt": "A nossa primeira tentativa na App", 
-    "it": "La nostra prima prova su App" 
+    "it": "La nostra prima prova su App" ,
+    "ne": "Onze eerste poging op App"
    }, 
    "Text3": { 
     "de": "nach Ihrer Gesundheit und speziellen Diäten. Mit unserem Scanner können Sie jeden Artikel scannen und erhalten mehrere Informationen wie z.B.: Spezielle Diäten: Vegetarier, Veganer, Pescatarier Allergien: Nüsse, Früchte, etc. (alle bekannten Lebensmittelallergien) Religiöse Einschränkungen: Halal, Koscher... Ökologischer Fußabdruck: \"Ist mir egal\" oder \"Ich möchte mich kümmern\". Diäten: Ich möchte \"abnehmen\", \"mein Gewicht halten\", \"zunehmen\". Da wir mit sensiblen Daten umgehen müssen, sind unsere Daten gut gesichert.", 
@@ -61,7 +68,8 @@
     "fr": "DynaFood vous aidera à choisir les meilleurs produits d'épicerie en fonction de votre santé et de vos régimes spéciaux. En utilisant notre scanner, vous pouvez scanner n'importe quel article et obtenir de nombreuses informations telles que : Régimes spéciaux : végétarien, végétalien, pescatarien Allergies : noix, fruits, etc. (toutes les allergies alimentaires connues) Restrictions religieuses : halal, casher... Empreinte écologique : \"Je m'en fiche\" ou \"Je veux m'en soucier\". Régimes alimentaires : Je veux \"réduire\", \"maintenir\", \"augmenter\" mon poids. Comme nous devons traiter des données sensibles, nos données sont bien sauvegardées en toute sécurité.", 
     "es": "DynaFood le ayudará a elegir los mejores alimentos en función de su salud y dietas especiales. Usando nuestro escáner puedes escanear cualquier artículo y obtener múltiple información como: Dietas especiales: vegetariana, vegana, pescatariana Alergias: frutos secos, frutas, etc. (todas las alergias alimentarias conocidas) Restricciones religiosas: halal, kosher... Huella ecológica: \"no me importa\" o \"quiero que me importe\". Dietas: Quiero \"reducir\", \"mantener\", \"aumentar\" mi peso. uesto que debemos tratar datos sensibles, nuestros datos están bien guardados de forma segura.", 
     "pt": "A DynaFood ajuda-o a escolher os melhores produtos de mercearia em função da sua saúde e das suas dietas especiais. Utilizando o nosso scanner, pode digitalizar qualquer artigo e obter várias informações, tais como Dietas especiais: vegetariano, vegan, pescatariano Alergias: frutos secos, frutas, etc. (todas as alergias alimentares conhecidas) Restrições religiosas: halal, kosher... Pegada ecológica: \"não me preocupo\" ou \"quero preocupar-me\". Dietas: Quero \"reduzir\", \"manter\", \"aumentar\" o meu peso. Como temos de tratar dados sensíveis, os nossos dados são guardados de forma segura.", 
-    "it": "DynaFood vi aiuterà a scegliere la spesa migliore in base alla vostra salute e alle vostre diete speciali. Utilizzando il nostro scanner è possibile scansionare qualsiasi articolo e ottenere diverse informazioni quali: Diete speciali: vegetariana, vegana, pescatariana Allergie: noci, frutta, ecc. (tutte le allergie alimentari conosciute) Restrizioni religiose: halal, kosher... Impronta ecologica: \"non mi interessa\" o \"voglio interessarmi\". Diete: Desidero \"ridurre\", \"mantenere\", \"aumentare\" il mio peso."  
+    "it": "DynaFood vi aiuterà a scegliere la spesa migliore in base alla vostra salute e alle vostre diete speciali. Utilizzando il nostro scanner è possibile scansionare qualsiasi articolo e ottenere diverse informazioni quali: Diete speciali: vegetariana, vegana, pescatariana Allergie: noci, frutta, ecc. (tutte le allergie alimentari conosciute) Restrizioni religiose: halal, kosher... Impronta ecologica: \"non mi interessa\" o \"voglio interessarmi\". Diete: Desidero \"ridurre\", \"mantenere\", \"aumentare\" il mio peso."  ,
+    "ne": "DynaFood is ontworpen om u te helpen bij het selecteren van de beste boodschappen, afgestemd op uw gezondheidsen voedingsbehoeften. Met behulp van onze geavanceerde scanner kunt u moeiteloos elk item scannen en toegang krijgen tot een schat aan informatie, inclusief details over specifieke diëten zoals vegetarische, veganistische en pescatarische opties, evenals allergie-informatie over noten, fruit en andere veel voorkomende allergenen. De app houdt ook rekening met religieuze overwegingen, zoals halal- en koosjere voorkeuren. Bovendien kunnen gebruikers de ecologische voetafdruk van producten beoordelen, waarbij ze kunnen kiezen tussen een 'onverschillige' of 'consciëntieuze' benadering. Bovendien hebben gebruikers de flexibiliteit om hun voorkeuren aan te passen en aan te geven of ze hun gewicht willen ‘verminderen’, ‘behouden’ of ‘verhogen’. U kunt er zeker van zijn dat, aangezien wij met gevoelige gegevens omgaan, onze robuuste beveiligingsprotocollen de vertrouwelijkheid en integriteit van uw informatie garanderen."
    },
    "Phase3": { 
      "de": "Phase 3: (Sommer 2022) Basis-App", 
@@ -69,7 +77,8 @@
      "fr": "Phase 3 : (été 2022) Application de base", 
      "es": "Fase 3: (verano de 2022) Aplicación básica", 
      "pt": "Fase 3: (verão de 2022) Aplicação de base", 
-     "it": "Fase 3: (estate 2022) App di base" 
+     "it": "Fase 3: (estate 2022) App di base" ,
+     "ne": "Fase 3: (zomer 2022) Basisapp"
    },
    "Titre4": { 
     "de": "Beta-Phase", 
@@ -77,7 +86,8 @@
     "fr": "Phase bêta", 
     "es": "Fase Beta", 
     "pt": "Fase Beta", 
-    "it": "Fase Beta" 
+    "it": "Fase Beta" ,
+    "ne": "Bètafase"
    }, 
    "Text4": { 
     "de": "Um die Suche nach den richtigen Produkten zu vereinfachen und zu beschleunigen, werden wir ein Punktesystem einführen. Auf der Grundlage der Vorlieben und Bedürfnisse des Nutzers sowie der Qualität des Produkts wird ein Algorithmus die Produkte prüfen und ihnen eine Punktzahl zuweisen. Diese Punktzahl wird ein numerischer Wert zwischen 0,0 und 100,0 sein. Enthält ein Produkt eine Zutat, die der Nutzer überhaupt nicht vertragen kann, erhält das Produkt die Punktzahl 0,0. Je nachdem, wie gut das Produkt den Bedürfnissen des Nutzers entspricht, variiert die Punktzahl bis zu 100, was eine perfekte Übereinstimmung bedeutet. Dazu bewerten wir die Inhaltsstoffe, die Ernährung und die ökologischen Lizenzen. Wenn der Nutzer gerade ein Produkt mit einer niedrigen Punktzahl prüft, wird die App versuchen, ähnliche Produkte mit einer besseren Punktzahl zu empfehlen, damit der Nutzer nicht lange suchen muss.", 
@@ -85,7 +95,8 @@
     "fr": "Pour faciliter et accélérer le processus de recherche des bons produits, nous allons mettre au point un système de notation. Sur la base des préférences et des besoins de l'utilisateur, ainsi que de la qualité du produit, un algorithme vérifiera les produits et leur attribuera une note. Cette note sera une valeur numérique comprise entre 0,0 et 100,0. Si un produit contient un ingrédient que l'utilisateur ne peut absolument pas consommer, le produit se verra attribuer une note de 0,0 Else, en fonction de l'adéquation du produit aux besoins de l'utilisateur, la note variera jusqu'à 100, ce qui signifie une adéquation parfaite. Pour cela, nous évaluerons les ingrédients, la nutrition et les licences écologiques. De plus, lorsque l'utilisateur est en train de vérifier un produit dont la note est faible, l'application essaiera de lui recommander des produits similaires ayant une meilleure note, afin qu'il n'ait pas à poursuivre ses recherches pendant longtemps.", 
     "es": "Para que el proceso de encontrar los productos adecuados sea más fácil y rápido, idearemos un sistema de puntuación. Basándonos en las preferencias y necesidades del usuario, así como en la calidad del producto, un algoritmo comprobará los productos y les asignará una puntuación. Esta puntuación será un valor numérico entre 0,0 y 100,0. Si un producto contiene un ingrediente que el usuario no puede consumir en absoluto, el producto recibirá una puntuación de 0,0. Además, dependiendo de lo bien que el producto se adapte a las necesidades del usuario, la puntuación variará hasta 100, lo que significa una adaptación perfecta. Para ello, se evaluarán los ingredientes, la nutrición y las licencias ecológicas. Además, cuando el usuario esté consultando un producto con una puntuación baja, la aplicación intentará recomendarle productos similares con una puntuación mejor para que no tenga que seguir buscando durante mucho tiempo.", 
     "pt": "Para tornar o processo de encontrar os produtos certos mais fácil e rápido, vamos criar um sistema de pontuação. Com base nas preferências e necessidades do utilizador, bem como na qualidade do produto, teremos um algoritmo a verificar os produtos e a atribuir-lhes uma pontuação. Esta pontuação será um valor numérico entre 0,0 e 100,0. Se um produto contiver um ingrediente que o utilizador não possa consumir de todo, o produto receberá uma pontuação de 0,0. Para isso, avaliaremos os ingredientes, a nutrição e as licenças ecológicas. Além disso, quando o utilizador estiver a verificar um produto com uma pontuação baixa, a aplicação tentará recomendar produtos semelhantes com uma pontuação melhor, para que o utilizador não tenha de continuar a procurar durante muito tempo.", 
-    "it": "Per rendere più semplice e veloce il processo di ricerca dei prodotti giusti, creeremo un sistema di punteggio. In base alle preferenze e alle esigenze dell'utente e alla qualità del prodotto, un algoritmo controllerà i prodotti e attribuirà loro un punteggio. Questo punteggio sarà un valore numerico compreso tra 0,0 e 100,0. Se un prodotto contiene un ingrediente che l'utente non può assolutamente consumare, gli verrà attribuito un punteggio di 0,0. In base a quanto il prodotto si adatta alle esigenze dell'utente, il punteggio varierà fino a 100, che significa un adattamento perfetto. Per questo, valuteremo gli ingredienti, la nutrizione e le licenze ecologiche. Inoltre, quando l'utente sta controllando un prodotto con un punteggio basso, l'applicazione cercherà di consigliare prodotti simili con un punteggio migliore, in modo che l'utente non debba continuare a cercare a lungo."  
+    "it": "Per rendere più semplice e veloce il processo di ricerca dei prodotti giusti, creeremo un sistema di punteggio. In base alle preferenze e alle esigenze dell'utente e alla qualità del prodotto, un algoritmo controllerà i prodotti e attribuirà loro un punteggio. Questo punteggio sarà un valore numerico compreso tra 0,0 e 100,0. Se un prodotto contiene un ingrediente che l'utente non può assolutamente consumare, gli verrà attribuito un punteggio di 0,0. In base a quanto il prodotto si adatta alle esigenze dell'utente, il punteggio varierà fino a 100, che significa un adattamento perfetto. Per questo, valuteremo gli ingredienti, la nutrizione e le licenze ecologiche. Inoltre, quando l'utente sta controllando un prodotto con un punteggio basso, l'applicazione cercherà di consigliare prodotti simili con un punteggio migliore, in modo che l'utente non debba continuare a cercare a lungo."  ,
+    "ne": "Om de efficiëntie van het selecteren van geschikte producten te vergroten, hebben we een geavanceerd scoresysteem geïmplementeerd. Dit systeem evalueert producten op basis van verschillende factoren, waaronder gebruikersvoorkeuren, productkwaliteit, voedingswaarde en ecologische certificeringen. Aan elk product wordt een numerieke score toegekend, variërend van 0,0 tot 100,0. Als een product een ingrediënt bevat dat niet verenigbaar is met de dieetbeperkingen van de gebruiker, krijgt het een score van 0,0. Omgekeerd krijgen producten die naadloos aansluiten bij de behoeften van de gebruiker hogere scores, waarbij 100,0 een perfecte match betekent. Onze evaluatie omvat gedetailleerde analyses van ingrediënten, voedingswaarde en ecologische duurzaamheid. Als een gebruiker bovendien een product tegenkomt met een lage score, stelt onze app proactief vergelijkbare, beter scorende alternatieven voor, waardoor een naadloze en efficiënte winkelervaring wordt gegarandeerd."
    },
    "Phase4": { 
      "de": "Phase 4: (Mai 2023) Beta (Produktinformations-Screenshot, kurze Erwähnung der Algorithmenerstellung)", 
@@ -93,6 +104,7 @@
      "fr": "Phase 4 : (mai 2023) Bêta (capture d'écran d'information sur le produit, brève mention de la création d'algorithmes)", 
      "es": "Fase 4: (Mayo 2023) Beta (Captura de pantalla de información del producto, menciona brevemente la creación del algoritmo)", 
      "pt": "Fase 4: (maio de 2023) Beta (captura de ecrã com informações sobre o produto, mencionar brevemente a criação do algoritmo)", 
-     "it": "Fase 4: (maggio 2023) Beta (schermata informativa del prodotto, breve accenno alla creazione dell'algoritmo)" 
+     "it": "Fase 4: (maggio 2023) Beta (schermata informativa del prodotto, breve accenno alla creazione dell'algoritmo)" ,
+     "ne": "Fase 4: (mei 2023) Bèta"
    }
 }

@@ -10,6 +10,7 @@ import deFlag from '../images/de.png';
 import itFlag from '../images/it.png';
 import esFlag from '../images/es.png';
 import prFlag from '../images/pr.png';
+import neFlag from '../images/ne.png';
 import translate from './../Translation/Navbar.json'
 
 function Navbar() {
@@ -88,6 +89,11 @@ function Navbar() {
       value: 'es',
       label: ' Spanish',
       icon: esFlag,
+    },
+    {
+      value: 'ne',
+      label: ' Netherlands',
+      icon: neFlag,
     },
   ];
 

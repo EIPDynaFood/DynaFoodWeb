@@ -5,7 +5,8 @@
     "fr": "Email...",
     "es" : "Correo electrónico...",
     "pt" : "Email...",
-    "it" : "Email..."
+    "it" : "Email...",
+    "ne": "E-mail..."
    }, 
    "Password": { 
     "de": "Passwort...",
@@ -13,7 +14,8 @@
     "fr": "Mot de passe...",
     "es" : "Contraseña...",
     "pt" : "Senha...",
-    "it" : "Password..."
+    "it" : "Password...",
+    "ne": "Wachtwoord..."
    },
    "CPassword": { 
     "de": "Bestätigen Sie Ihr Passwort...",
@@ -21,7 +23,8 @@
     "fr": "Confirmer le mot de passe...",
     "es" : "Confirmar contraseña...",
     "pt" : "Confirmar a palavra-passe...",
-    "it" : "Conferma la password..."
+    "it" : "Conferma la password...",
+    "ne": "Bevestig wachtwoord..."
    },
    "FirstName": { 
     "de": "Vornamen",
@@ -29,7 +32,8 @@
     "fr": "Prénom",
     "es" : "Nombre de pila",
     "pt" : "Nome próprio",
-    "it" : "Nome"
+    "it" : "Nome",
+    "ne": "Voornaam"
    },
    "LastName": { 
     "de": "Nachname",
@@ -37,7 +41,8 @@
     "fr": "Nom de famille",
     "es" : "Apellido",
     "pt" : "Apelido",
-    "it" : "Cognome"
+    "it" : "Cognome",
+    "ne": "Achternaam"
    },
    "Login": { 
     "de": "Hier anmelden",
@@ -45,7 +50,8 @@
     "fr": "Connexion ici",
     "es" : "Conéctese aquí",
     "pt" : "Iniciar sessão aqui",
-    "it" : "Accedi qui"
+    "it" : "Accedi qui",
+    "ne": "Log in"
    },
    "Register": { 
     "de": "Registrieren",
@@ -53,7 +59,8 @@
     "fr": "Enregistrez",
     "es" : "Registrarse",
     "pt" : "Registe-se",
-    "it" : "Registrazione"
+    "it" : "Registrazione",
+    "ne": "Register"
    },
    "Account": { 
     "de": "Sie haben bereits ein Konto?",
@@ -61,6 +68,7 @@
     "fr": "Vous avez déjà un compte ?",
     "es" : "¿Ya tiene una cuenta?",
     "pt" : "Já tem uma conta?",
-    "it" : "Avete già un account?"
+    "it" : "Avete già un account?",
+    "ne": "Heeft u al een account?"
    }
 }

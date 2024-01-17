@@ -5,7 +5,8 @@
     "fr": "_FR   ", 
     "es": "_ES   ", 
     "pt": "_PT   ", 
-    "it": "_IT   " 
+    "it": "_IT   " ,
+    "ne": "_NE   "
    }, 
    "Home": { 
     "de": "Willkommen", 
@@ -13,7 +14,8 @@
     "fr": "Accueil", 
     "es": "Inicio", 
     "pt": "Início", 
-    "it": "Casa"  
+    "it": "Casa"  ,
+    "ne": "Thuis"
    },
    "Apps": { 
      "de": "Anwendung", 
@@ -21,7 +23,8 @@
      "fr": "Application", 
      "es": "Aplicaciones", 
      "pt": "Aplicações", 
-     "it": "Applicazioni" 
+     "it": "Applicazioni" ,
+     "ne": "Apps"
    },
    "Team": { 
     "de": "Der team", 
@@ -29,7 +32,8 @@
     "fr": "La team", 
     "es": "Equipo", 
     "pt": "Equipa", 
-    "it": "Squadra" 
+    "it": "Squadra" ,
+    "ne": "Team"
    }, 
    "Contact": { 
     "de": "Begleiten Sie uns", 
@@ -37,7 +41,8 @@
     "fr": "Nous contacter", 
     "es": "Póngase en contacto con nosotros", 
     "pt": "Contacto", 
-    "it": "Contatti"  
+    "it": "Contatti"  ,
+    "ne": "Neem contact met ons op"
    },
    "Download": { 
      "de": "Unterladen", 
@@ -45,7 +50,8 @@
      "fr": "Telecharger", 
      "es": "Descargar", 
      "pt": "Descarregar", 
-     "it": "Scaricare" 
+     "it": "Scaricare" ,
+     "ne": "Downloaden"
    },
    "Login": { 
     "de": "Login", 
@@ -53,7 +59,8 @@
     "fr": "Connecter", 
     "es": "Inicio de sesión", 
     "pt": "Iniciar sessão", 
-    "it": "Accesso"  
+    "it": "Accesso"  ,
+    "ne": "Log in"
    },
    "Profil": { 
      "de": "Profil", 
@@ -61,6 +68,7 @@
      "fr": "Profil", 
      "es": "Perfil", 
      "pt": "Perfil", 
-     "it": "Profilo" 
+     "it": "Profilo" ,
+     "ne": "Profiel"
    }
 }

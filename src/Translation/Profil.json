@@ -5,7 +5,8 @@
     "fr": "Vos allergies : ", 
     "es": "Sus alergias: ", 
     "pt": "As suas alergias: ", 
-    "it": "Le vostre allergie: " 
+    "it": "Le vostre allergie: " ,
+    "ne": "Uw allergieën:"
    }, 
    "Profil": { 
     "de": "Profil Seite", 
@@ -13,7 +14,8 @@
     "fr": "Profil Page", 
     "es": "Página de perfil", 
     "pt": "Página de perfil", 
-    "it": "Pagina del profilo"  
+    "it": "Pagina del profilo"  ,
+    "ne": "Profiel pagina"
    },
    "No": { 
      "de": "Nein", 
@@ -21,7 +23,8 @@
      "fr": "Non", 
      "es": "No", 
      "pt": "Não", 
-     "it": "No" 
+     "it": "No" ,
+     "ne": "Nee"
    }, 
    "Casual": { 
      "de": "Gelegentlich", 
@@ -29,7 +32,8 @@
      "fr": "Occasionnellement", 
      "es": "Casualmente", 
      "pt": "Casualmente", 
-     "it": "Casualmente" 
+     "it": "Casualmente" ,
+     "ne": "Terloops"
    }, 
    "Strict": { 
      "de": "Streng", 
@@ -37,7 +41,8 @@
      "fr": "Strictement", 
      "es": "Estrictamente", 
      "pt": "Estritamente", 
-     "it": "Rigorosamente" 
+     "it": "Rigorosamente" ,
+     "ne": "Strikt"
    },
    "Logout": {
     "de": "Ausloggen",
@@ -45,7 +50,8 @@
     "fr": "Déconnexion",
     "es" : "Cerrar sesión",
     "pt" : "Sair",
-    "it" : "Disconnessione"
+    "it" : "Disconnessione",
+    "ne": "Uitloggen"
   },
   "Delete": {
     "de": "Löschen",
@@ -53,7 +59,8 @@
     "fr": "Supprimer",
     "es" : "Borrar",
     "pt" : "Eliminar",
-    "it" : "Cancellare"
+    "it" : "Cancellare",
+    "ne": "Verwijderen"
   },
   "Allergies": {
     "de": "Allergien",
@@ -61,7 +68,8 @@
     "fr": "Allergies",
     "es" : "Alergias",
     "pt" : "Alergias",
-    "it" : "Allergie"
+    "it" : "Allergie",
+    "ne": "allergieën"
   },
   "Vegan": {
     "de": "Vegan",
@@ -69,7 +77,8 @@
     "fr": "Vegan",
     "es" : "Vegano",
     "pt" : "Vegan",
-    "it" : "Vegano"
+    "it" : "Vegano",
+    "ne": "Veganistisch"
   },
   "Vegetarian": {
     "de": "Vegetarisch",
@@ -77,6 +86,7 @@
     "fr" : "Végétarien",
     "es" : "Vegetariano",
     "pt" : "Vegetariano",
-    "it" : "Vegetariano"
+    "it" : "Vegetariano",
+    "ne": "Vegetarisch"
   }
 }

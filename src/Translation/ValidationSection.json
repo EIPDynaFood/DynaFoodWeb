@@ -5,7 +5,8 @@
     "fr": "Un email a été envoyé pour vérifier votre compte", 
     "es": "Se ha enviado un correo electrónico para verificar su cuenta", 
     "pt": "Foi enviado um e-mail para verificar a sua conta", 
-    "it": "È stata inviata un'e-mail per verificare il vostro account" 
+    "it": "È stata inviata un'e-mail per verificare il vostro account" ,
+    "ne": "Er is een e-mail verzonden om uw account te verifiëren"
    }, 
    "Thank": { 
     "de": "Danke, dass Sie unsere Anwendung nutzen", 
@@ -13,7 +14,8 @@
     "fr": "Merci d'avoir utilisé notre application", 
     "es": "Gracias por utilizar nuestra aplicación", 
     "pt": "Obrigado por utilizar a nossa aplicação", 
-    "it": "Grazie per aver utilizzato la nostra applicazione"  
+    "it": "Grazie per aver utilizzato la nostra applicazione"  ,
+    "ne": "Bedankt voor het gebruik van onze applicatie"
    },
    "Back": { 
      "de": "Zurück zur Homepage", 
@@ -21,6 +23,7 @@
      "fr": "Retour à la page d'accueil", 
      "es": "Volver a la página de inicio", 
      "pt": "Voltar à página inicial", 
-     "it": "Torna alla homepage" 
+     "it": "Torna alla homepage" ,
+     "ne": "Terug naar de startpagina"
    }
 }

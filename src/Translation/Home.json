@@ -5,7 +5,8 @@
     "fr": "Une application mobile qui permet aux utilisateurs de suivre et d'évaluer l'impact environnemental et la valeur nutritionnelle de leurs courses.", 
     "es": "Una aplicación móvil que permite a los usuarios seguir y evaluar el impacto medioambiental y el valor nutritivo de sus compras.", 
     "pt": "Uma aplicação móvel que permite aos utilizadores acompanhar e avaliar o impacto ambiental e o valor nutricional das suas compras.", 
-    "it": "Un'applicazione mobile che consente agli utenti di monitorare e valutare l'impatto ambientale e il valore nutrizionale della propria spesa." 
+    "it": "Un'applicazione mobile che consente agli utenti di monitorare e valutare l'impatto ambientale e il valore nutrizionale della propria spesa.",
+    "ne": "Een mobiele applicatie waarmee gebruikers de milieu-impact en voedingswaarde van hun boodschappen kunnen volgen en evalueren." 
    },
    "Details": { 
     "de": "Einzelheiten", 
@@ -13,7 +14,8 @@
     "fr": "Détails", 
     "es": "Detalles", 
     "pt": "Detalhes", 
-    "it": "Dettagli" 
+    "it": "Dettagli" ,
+    "ne": "Details"
    },
    "Download": { 
     "de": "Die App herunterladen", 
@@ -21,6 +23,7 @@
     "fr": "Télécharger l'application", 
     "es": "Descargar la aplicación", 
     "pt": "Descarregar a aplicação", 
-    "it": "Scarica l'applicazione" 
+    "it": "Scarica l'applicazione" ,
+    "ne": "Download de app"
    }
 }

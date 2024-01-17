@@ -5,7 +5,8 @@
     "fr": "À propos de nous", 
     "es": "Quiénes somos", 
     "pt": "Sobre nós", 
-    "it": "Chi siamo" 
+    "it": "Chi siamo" ,
+    "ne": "Over ons"
    }, 
    "Works": { 
     "de": "Wie es funktioniert", 
@@ -13,7 +14,8 @@
     "fr": "Comment cela fonctionne-t-il ?", 
     "es": "Cómo funciona", 
     "pt": "Como funciona", 
-    "it": "Come funziona"  
+    "it": "Come funziona"  ,
+    "ne": "Hoe het werkt"
    },
    "Team": { 
      "de": "Team", 
@@ -21,7 +23,8 @@
      "fr": "Team", 
      "es": "Team", 
      "pt": "Team", 
-     "it": "Team" 
+     "it": "Team" ,
+     "ne": "Team"
    },
    "Service": { 
     "de": "Bedingungen der Dienstleistung", 
@@ -29,7 +32,8 @@
     "fr": "Conditions d'utilisation", 
     "es": "Condiciones de uso", 
     "pt": "Termos do serviço", 
-    "it": "Termini di servizio" 
+    "it": "Termini di servizio" ,
+    "ne": "Servicevoorwaarden"
    }, 
    "ContactUs": { 
     "de": "Begleiten Sie uns", 
@@ -37,7 +41,8 @@
     "fr": "Nous contacter", 
     "es": "Póngase en contacto con nosotros", 
     "pt": "Contacto", 
-    "it": "Contatti"  
+    "it": "Contatti"  ,
+    "ne": "Neem contact met ons op"
    },
    "Contact": { 
      "de": "Kontakt", 
@@ -45,7 +50,8 @@
      "fr": "Contact", 
      "es": "Póngase en contacto con", 
      "pt": "Contacto", 
-     "it": "Contatto" 
+     "it": "Contatto" ,
+     "ne": "Contact"
    },
    "SocialMedia": { 
     "de": "Soziale Medien", 
@@ -53,7 +59,8 @@
     "fr": "Médias sociaux", 
     "es": "Redes sociales", 
     "pt": "Redes sociais", 
-    "it": "Media sociali"  
+    "it": "Media sociali"  ,
+    "ne": "Sociale media"
    },
    "Linkedin": { 
      "de": "Linkedin", 
@@ -61,7 +68,8 @@
      "fr": "Linkedin", 
      "es": "Linkedin", 
      "pt": "Linkedin", 
-     "it": "Linkedin" 
+     "it": "Linkedin" ,
+     "ne": "Linkedin"
    },
    "Facebook": { 
     "de": "Facebook", 
@@ -69,7 +77,8 @@
     "fr": "Facebook", 
     "es": "Facebook", 
     "pt": "Facebook", 
-    "it": "Facebook" 
+    "it": "Facebook" ,
+    "ne": "Facebook"
    }, 
    "Youtube": { 
     "de": "Youtube", 
@@ -77,7 +86,8 @@
     "fr": "Youtube", 
     "es": "Youtube", 
     "pt": "Youtube", 
-    "it": "Youtube"  
+    "it": "Youtube"  ,
+    "ne": "YouTube"
    },
    "Twitter": { 
     "de": "Twitter", 
@@ -85,6 +95,7 @@
     "fr": "Twitter", 
     "es": "Twitter", 
     "pt": "Twitter", 
-    "it": "Twitter"  
+    "it": "Twitter" ,
+    "ne": "Twitteren" 
    }
 }
